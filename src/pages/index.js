@@ -1,7 +1,35 @@
-import React, { useRef } from 'react';
-import CreditsBlock from './components/CreditsBlock.js';
+import React, { useRef, useEffect } from 'react';
+import CreditsBlock from '../components/CreditsBlock.js';
+import Bios from '../components/Bios.js';
+import ResponsiveHeroImage from '../components/ResponsiveHeroImage.js';
+import useWindowDimensions from '../utilities/useWindowDimensions.js';
+import * as Scroll from 'react-scroll';
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll';
+import { plan9, plan8, crew } from '../data.js';
+import '../styles.scss';
+
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
 const IndexPage = () => {
+  // useEffect(() => {
+  //   Events.scrollEvent.register('begin', (to, element) => {
+  //     console.log('scroll begin', arguments);
+  //   });
+  //   Events.scrollEvent.register('end', (to, element) => {
+  //     console.log('scroll end', arguments);
+  //   });
+
+  //   scrollSpy.update();
+  // });
+  // const bioRefs = () =>
   const goToBio = (scrollRef) => {
     scrollRef.current.scrollIntoView();
   };
@@ -9,23 +37,29 @@ const IndexPage = () => {
   return (
     <body>
       <header>
-        <h4>Post Meridian Radio Players Present</h4>
+        <h4 className="preHeader">The Post Meridian Radio Players Present</h4>
         <ResponsiveHeroImage />
-        <h3>Some other subtitle text about the two shows</h3>
+        {useWindowDimensions().width < 530 && (
+          <h3>
+            Plus! The never before revealed to the public{' '}
+            <span>"Plan 8 from the Outer Ether!"</span> by Brian Rust
+          </h3>
+        )}
       </header>
-      <div>
-        <ATFProgramInfo />
-        <CreditsBlock show={plan9} />
-        <CreditsBlock show={plan8} />
-        <CreditsBlock show={crew} />
-        <BTFProgramInfo />
+      <div className="content">
+        <div className="credits">
+          {/*<ATFProgramInfo />*/}
+          <CreditsBlock show={plan9} />
+          <CreditsBlock show={plan8} />
+          <CreditsBlock show={crew} />
+          {/*<BTFProgramInfo />*/}
+        </div>
+        <div>
+          <Bios />
+        </div>
       </div>
-      <div>
-        <Bios />
-      </div>
-      <footer>
-        <SocialMediaLinks />
-      </footer>
+
+      <footer>{/*<SocialMediaLinks />*/}</footer>
     </body>
   );
 };

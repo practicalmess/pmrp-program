@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400;1,600&family=Limelight&display=swap');
+
+// $wideBannerUrl: ''
+$wideBannerWidth: 765px;
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  max-width: $wideBannerWidth;
+  background-color: #dfd0ce;
+}
+header {
+  text-align: center;
+  .preHeader {
+    text-transform: uppercase;
+    font-family: 'Limelight', sans-serif;
+    margin: 0;
+    color: white;
+    background-color: black;
+  }
+  h3 {
+    margin-top: 4px;
+  }
+  .heroBannerImg {
+    img {
+      width: 100%;
+    }
+    // @media (min-width: $wideBannerWidth) {
+    //   height: 231px;
+    //   background-image: url('images/wide_banner_with_text.png');
+    // }
+  }
+}
+.content {
+  margin: 2px;
+}
+.programBlock {
+  background-color: #f1f1f1;
+  // border: 1px solid black;
+  border-radius: 5px;
+  padding: 16px 8px;
+  margin: 24px 0;
+  .highlightCredit {
+    display: block;
+  }
+  h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .singleCredit {
+    display: flex;
+    .dots {
+      content: '';
+      margin-top: auto;
+      border: 1px dashed black;
+      flex-grow: 2;
+    }
+
+    &-name {
+      text-align: right;
+    }
+  }
+}
+
+.biosBlock {
+  * {
+    margin: 0;
+  }
+  background-color: #f1f1f1;
+  &-title {
+    text-align: center;
+    padding-top: 8px;
+  }
+  &-singleBio {
+    padding: 8px;
+    margin-bottom: 16px;
+    &--title {
+      padding: 8px;
+    }
+    &::after {
+      content: '';
+      border: 1px solid #918d8d;
+      width: 50%;
+      margin-top: 20px;
+      position: absolute;
+      display: block;
+      margin-left: 25%;
+    }
+  }
+}
