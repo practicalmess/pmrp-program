@@ -40,10 +40,13 @@ const IndexPage = () => {
         <h4 className="preHeader">The Post Meridian Radio Players Present</h4>
         <ResponsiveHeroImage />
         {useWindowDimensions().width < 530 && (
-          <h3>
+          <h4>
             Plus! The never before revealed to the public{' '}
-            <span>"Plan 8 from the Outer Ether!"</span> by Brian Rust
-          </h3>
+            <span className="highlightText">
+              "Plan 8 from the Outer Ether!"
+            </span>{' '}
+            by Brian Rust
+          </h4>
         )}
       </header>
       <div className="content">

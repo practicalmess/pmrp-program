@@ -21,11 +21,13 @@ const CreditsBlock = ({ show, goToBio }) => {
   // console.log(credits);
   return (
     <div className="programBlock">
-      <h3>{showName}</h3>
-      {writerCredit && <span className="highlightCredit">{writerCredit}</span>}
-      {directorCredit && (
-        <span className="highlightCredit">{directorCredit}</span>
-      )}
+      <div className="programBlock-header">
+        <h3>{showName}</h3>
+        {writerCredit && <h4 className="highlightCredit">{writerCredit}</h4>}
+        {directorCredit && (
+          <h4 className="highlightCredit">{directorCredit}</h4>
+        )}
+      </div>
       {description && <p>{description}</p>}
       {credits.map((credit) => (
         <SingleCredit credit={credit} handleClick={goToBio} />

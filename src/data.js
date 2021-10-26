@@ -22,7 +22,7 @@ export const data = {
       { role: 'Eros / Bel', name: 'Leo Balkovetz' },
       { role: 'Tanna / Vampir', name: 'Katie Meyers' },
       { role: 'Col. Edwards / Gravedigger 1', name: 'Livie Keane' },
-      { role: 'Foley Captai', name: 'Keisha Warriner' },
+      { role: 'Foley Captain', name: 'Keisha Warriner' },
       { role: 'Foley Artist', name: 'Simone Agha' },
       { role: 'Foley Artist', name: 'Scott T Hickey' },
     ],
