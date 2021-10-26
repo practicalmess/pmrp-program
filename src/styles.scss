@@ -86,5 +86,8 @@ header {
       display: block;
       margin-left: 25%;
     }
+    &:last-child::after {
+      display: none;
+    }
   }
 }

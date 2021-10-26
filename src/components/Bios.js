@@ -23,11 +23,11 @@ const Bios = (refs) => {
       <h2 className="biosBlock-title">Cast & Crew Bios</h2>
       <div className="biosBlock-wrapper">
         {biosArray.map((bio) => (
-          <div>
+          <div className="biosBlock-singleBio">
             <h3 className="biosBlock-singleBio--title">
               {bio[0]} {bio[1]}
             </h3>
-            <div className="biosBlock-singleBio">{bio[2]}</div>
+            <div className="biosBlock-singleBio--copyText">{bio[2]}</div>
           </div>
         ))}
       </div>
