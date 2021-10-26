@@ -40,7 +40,7 @@ const IndexPage = () => {
         <h4 className="preHeader">The Post Meridian Radio Players Present</h4>
         <ResponsiveHeroImage />
         {useWindowDimensions().width < 530 && (
-          <h4>
+          <h4 className="postHeader">
             Plus! The never before revealed to the public{' '}
             <span className="highlightText">
               "Plan 8 from the Outer Ether!"

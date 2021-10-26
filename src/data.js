@@ -19,8 +19,8 @@ export const data = {
       { role: 'Larry / Rule', name: 'Brian Edgar' },
       { role: 'Kelton / Captain', name: 'Joel Priest' },
       { role: 'Clay / Mourner 2', name: 'Emma Joyce' },
-      { role: 'Eros / Bel', name: 'Leo Balkovetz' },
-      { role: 'Tanna / Vampir', name: 'Katie Meyers' },
+      { role: 'Eros / Bela', name: 'Leo Balkovetz' },
+      { role: 'Tanna / Vampira', name: 'Katie Meyers' },
       { role: 'Col. Edwards / Gravedigger 1', name: 'Livie Keane' },
       { role: 'Foley Captain', name: 'Keisha Warriner' },
       { role: 'Foley Artist', name: 'Simone Agha' },
@@ -79,7 +79,7 @@ export const data = {
       lastName: 'Ross',
       role: 'The Auture',
       bioText:
-        'is excited to be performing again with PMRP! She recently appeared with PMRP as Sub-Commander Tal (Star Trek: The Enterprise Incident) and Kate Warne (Confidence Confidant). Her other work includes Epigenes (The Congresswomen) and Lussurioso (The Revengers Tragedy).',
+        'is excited to be performing again with PMRP! She recently appeared with PMRP as Sub-Commander Tal (Star Trek: The Enterprise Incident) and Kate Warne (Confidence Confidant). Her other work includes Epigenes (The Congresswomen) and Lussurioso (The Revengers Tragedy).',
     },
     {
       timestamp: '10/9/2021 18:41:57',
@@ -286,7 +286,7 @@ export const data = {
       lastName: 'Sekora',
       role: 'sound engineer',
       bioText:
-        'has played a roaring-drunk space explorer making contact with an alien intelligence and the ghost of Edgar Allan Poe and directed adaptations of _Night of the Living Dead_ and _Filibus: The Mysterious Sky Pirate_.  He thanks his beloved Mare for theater and other shared joys.',
+        'has played a roaring-drunk space explorer making contact with an alien intelligence and the ghost of Edgar Allan Poe and directed adaptations of "Night of the Living Dead" and "Filibus: The Mysterious Sky Pirate".  He thanks his beloved Mare for theater and other shared joys.',
     },
     {
       timestamp: '10/20/2021 20:44:01',
@@ -332,6 +332,23 @@ export const data = {
       role: 'Stage Manager',
       bioText:
         "is delighted to help bring spooky, silly sounds back to Boston Brunch Church (live!). She was last seen Zoomily as Mirror Sulu in PMRP's Gender-Swapped Star Trek. Thanks to the cast & crew for bearing with her last-minute emails, and thank YOU, dear audience member, for coming to hear and experience the cast's delightful voice noises!",
+    },
+    {
+      firstName: 'Scott T',
+      lastName: 'Hickey',
+      bioText:
+        'is terribly relieved to be doing actual foley for this show instead of mouth sounds.',
+    },
+    {
+      firstName: 'Joev',
+      lastName: 'Dubach',
+      bioText:
+        'has worked with PMRP on too many shows to count! In his spare time, Joev enjoys improvisational free fitness hilarity with November Project Boston (november-project.com/boston). (Just show up!)',
+    },
+    {
+      firstName: 'Hannah',
+      lastName: 'Baker',
+      bioText: '',
     },
   ],
 };

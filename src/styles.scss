@@ -3,11 +3,17 @@
 // $wideBannerUrl: ''
 $wideBannerWidth: 765px;
 
+$red: #d92534;
+$black: #233559;
+$grey: #6a768d;
+$cream: #f2f2f2;
+$orange: #f4a98f;
+
 body {
   font-family: 'Raleway', sans-serif;
   margin: auto;
   max-width: $wideBannerWidth;
-  background-color: #dfd0ce;
+  background-color: $grey;
   h3 {
     font-size: 3em;
     font-family: 'Teko', sans-serif;
@@ -15,6 +21,9 @@ body {
     text-align: center;
   }
   h4 {
+    &.postHeader {
+      color: $cream;
+    }
     font-size: 1.5em;
     font-family: 'Teko', sans-serif;
     margin: 0;
@@ -39,13 +48,13 @@ header {
   }
 }
 .highlightText {
-  color: #5c0c00;
+  color: $orange;
 }
 .content {
   margin: 2px;
 }
 .programBlock {
-  background-color: #f1f1f1;
+  background-color: $cream;
   // border: 1px solid black;
   border-radius: 5px;
   padding: 16px 20px;
@@ -83,7 +92,7 @@ header {
   * {
     margin: 0;
   }
-  background-color: #f1f1f1;
+  background-color: $cream;
   &-title {
     text-align: center;
     padding-top: 8px;
@@ -97,7 +106,7 @@ header {
     }
     &::after {
       content: '';
-      border: 1px solid #918d8d;
+      border: 1px solid $grey;
       width: 50%;
       margin-top: 20px;
       position: absolute;
