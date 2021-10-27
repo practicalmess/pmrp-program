@@ -45,7 +45,7 @@ export const data = {
       { role: 'Lawyer', name: 'Marissa Kennedy' },
       { role: 'Belle', name: 'Rachel Tessler' },
       { role: 'Foley Captain', name: 'Tori Queeno' },
-      { role: 'Foley Artist', name: 'Stacie "Red" Stone' },
+      { role: 'Foley Artist', name: 'S.L. "Red" Stone' },
     ],
   },
   crew: {
@@ -334,8 +334,8 @@ export const data = {
         "is delighted to help bring spooky, silly sounds back to Boston Brunch Church (live!). She was last seen Zoomily as Mirror Sulu in PMRP's Gender-Swapped Star Trek. Thanks to the cast & crew for bearing with her last-minute emails, and thank YOU, dear audience member, for coming to hear and experience the cast's delightful voice noises!",
     },
     {
-      firstName: 'Scott T',
-      lastName: 'Hickey',
+      firstName: 'Scott',
+      lastName: 'T Hickey',
       bioText:
         'is terribly relieved to be doing actual foley for this show instead of mouth sounds.',
     },
@@ -348,7 +348,19 @@ export const data = {
     {
       firstName: 'Hannah',
       lastName: 'Baker',
-      bioText: '',
+      bioText: 'is the secret mastermind behind plans one through seven.',
+    },
+    {
+      firstName: 'Marissa',
+      lastName: 'Kennedy',
+      bioText:
+        'is a monotypic genus created for the non-venomous dwarf boa species,',
+    },
+    {
+      firstName: 'Karen',
+      lastName: 'Sarao',
+      bioText:
+        'is the most variably sized order of vertebrates, ranging from the 7mm Schindleria brevipinguis to the 5m marlin.',
     },
   ],
 };

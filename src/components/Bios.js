@@ -4,9 +4,10 @@ import { data } from '../data.js';
 const Bios = (refs) => {
   const rawBiosData = data.bios;
   let biosArray = [];
-  rawBiosData.map((bio) => {
+  rawBiosData.forEach((bio) => {
+    console.log(bio.bioText);
     let bioText =
-      bio.bioText.charAt(0).toUpperCase() + bio.bioText.substring(1);
+      bio.bioText?.charAt(0).toUpperCase() + bio.bioText?.substring(1) || '';
     if (bioText.substring(0, 2) !== 'Is' && bioText.substring(0, 3) !== 'Has') {
       biosArray.push({
         firstName: bio.firstName,
@@ -25,6 +26,18 @@ const Bios = (refs) => {
       });
     }
   });
+
+  const compare = (a, b) => {
+    if (a.lastName < b.lastName) {
+      return -1;
+    }
+    if (a.lastName > b.lastName) {
+      return 1;
+    }
+    return 0;
+  };
+
+  biosArray.sort(compare);
 
   return (
     <div className="biosBlock">
