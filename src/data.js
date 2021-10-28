@@ -24,7 +24,6 @@ export const data = {
       { role: 'Col. Edwards / Gravedigger 1', name: 'Livie Keane' },
       { role: 'Foley Captain', name: 'Keisha Warriner' },
       { role: 'Foley Artist', name: 'Simone Agha' },
-      { role: 'Foley Artist', name: 'Scott T Hickey' },
     ],
   },
   plan8: {
@@ -59,7 +58,6 @@ export const data = {
       { role: 'Sound Engineer', name: 'Jay Sekora' },
       { role: 'Publicity Manager', name: 'Tori Queeno' },
       { role: 'Graphic Designer', name: 'Jeremy Holstein' },
-      { role: 'Assistant Graphic Designer', name: 'Sarah Stone-Booth' },
     ],
   },
   bios: [
@@ -332,12 +330,6 @@ export const data = {
       role: 'Stage Manager',
       bioText:
         "is delighted to help bring spooky, silly sounds back to Boston Brunch Church (live!). She was last seen Zoomily as Mirror Sulu in PMRP's Gender-Swapped Star Trek. Thanks to the cast & crew for bearing with her last-minute emails, and thank YOU, dear audience member, for coming to hear and experience the cast's delightful voice noises!",
-    },
-    {
-      firstName: 'Scott',
-      lastName: 'T Hickey',
-      bioText:
-        'is terribly relieved to be doing actual foley for this show instead of mouth sounds.',
     },
     {
       firstName: 'Joev',
