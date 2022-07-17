@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400;1,600&family=Limelight&family=Teko&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400;1,600&family=Limelight&family=Teko&display=swap");
 
 // $wideBannerUrl: ''
 $wideBannerWidth: 765px;
 
-$red: #d92534;
-$black: #233559;
-$grey: #6a768d;
-$cream: #f2f2f2;
-$orange: #f4a98f;
+$baseDark: #262626;
+$baseLight: #f0f1f2;
+$highlight: #bf3641;
+$secondary: #a6583c;
+$contrast: #5db8cc;
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: auto;
   max-width: $wideBannerWidth;
-  background-color: $grey;
+  background-color: $baseDark;
   h3 {
     font-size: 3em;
-    font-family: 'Teko', sans-serif;
+    font-family: "Teko", sans-serif;
     margin: 0;
     text-align: center;
   }
   h4 {
     &.postHeader {
-      color: $cream;
+      color: $baseLight;
     }
     font-size: 1.5em;
-    font-family: 'Teko', sans-serif;
+    font-family: "Teko", sans-serif;
     margin: 0;
   }
 }
@@ -33,7 +33,7 @@ header {
   text-align: center;
   .preHeader {
     text-transform: uppercase;
-    font-family: 'Limelight', sans-serif;
+    font-family: "Limelight", sans-serif;
     margin: 0;
     color: white;
     background-color: black;
@@ -48,13 +48,13 @@ header {
   }
 }
 .highlightText {
-  color: $orange;
+  color: $highlight;
 }
 .content {
   margin: 2px;
 }
 .programBlock {
-  background-color: $cream;
+  background-color: $baseLight;
   // border: 1px solid black;
   border-radius: 5px;
   padding: 16px 20px;
@@ -66,6 +66,7 @@ header {
   }
   .highlightCredit {
     display: block;
+    text-align: center;
   }
   h3 {
     margin: 0;
@@ -75,7 +76,7 @@ header {
     display: flex;
     padding: 6px 0;
     .dots {
-      content: '';
+      content: "";
       margin-top: auto;
       margin-bottom: 4px;
       border: 1px dashed black;
@@ -92,7 +93,7 @@ header {
   * {
     margin: 0;
   }
-  background-color: $cream;
+  background-color: $baseLight;
   &-title {
     text-align: center;
     padding-top: 8px;
@@ -105,8 +106,8 @@ header {
       margin-bottom: 8px;
     }
     &::after {
-      content: '';
-      border: 1px solid $grey;
+      content: "";
+      border: 1px solid $secondary;
       width: 50%;
       margin-top: 20px;
       position: absolute;

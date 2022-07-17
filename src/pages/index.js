@@ -1,9 +1,9 @@
-import React, { useRef, useEffect } from 'react';
-import CreditsBlock from '../components/CreditsBlock.js';
-import Bios from '../components/Bios.js';
-import ResponsiveHeroImage from '../components/ResponsiveHeroImage.js';
-import useWindowDimensions from '../utilities/useWindowDimensions.js';
-import * as Scroll from 'react-scroll';
+import React, { useRef, useEffect } from "react";
+import CreditsBlock from "../components/CreditsBlock.js";
+import Bios from "../components/Bios.js";
+import ResponsiveHeroImage from "../components/ResponsiveHeroImage.js";
+import useWindowDimensions from "../utilities/useWindowDimensions.js";
+import * as Scroll from "react-scroll";
 import {
   Link,
   Button,
@@ -12,9 +12,9 @@ import {
   animateScroll as scroll,
   scrollSpy,
   scroller,
-} from 'react-scroll';
-import { plan9, plan8, crew } from '../data.js';
-import '../styles.scss';
+} from "react-scroll";
+import { data } from "../data.js";
+import "../styles.scss";
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
 
@@ -34,28 +34,19 @@ const IndexPage = () => {
     scrollRef.current.scrollIntoView();
   };
 
+  const shows = data.shows;
+
   return (
-    <body>
+    <div>
       <header>
-        <h4 className="preHeader">The Post Meridian Radio Players Present</h4>
+        <h2 className="preHeader">PMRP Summer Mysteries</h2>
         <ResponsiveHeroImage />
-        {useWindowDimensions().width < 530 && (
-          <h4 className="postHeader">
-            Plus! The never before revealed to the public{' '}
-            <span className="highlightText">
-              "Plan 8 from the Outer Ether!"
-            </span>{' '}
-            by Brian Rust
-          </h4>
-        )}
       </header>
       <div className="content">
         <div className="credits">
-          {/*<ATFProgramInfo />*/}
-          <CreditsBlock show={plan9} />
-          <CreditsBlock show={plan8} />
-          <CreditsBlock show={crew} />
-          {/*<BTFProgramInfo />*/}
+          {shows.map((show) => (
+            <CreditsBlock showData={show} goToBio={goToBio} />
+          ))}
         </div>
         <div>
           <Bios />
@@ -63,7 +54,7 @@ const IndexPage = () => {
       </div>
 
       <footer>{/*<SocialMediaLinks />*/}</footer>
-    </body>
+    </div>
   );
 };
 

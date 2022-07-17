@@ -1,54 +1,17 @@
-import React from 'react';
-import { data } from '../data.js';
+import React from "react";
+import { data } from "../data.js";
 
 const Bios = (refs) => {
-  const rawBiosData = data.bios;
-  let biosArray = [];
-  rawBiosData.forEach((bio) => {
-    console.log(bio.bioText);
-    let bioText =
-      bio.bioText?.charAt(0).toUpperCase() + bio.bioText?.substring(1) || '';
-    if (bioText.substring(0, 2) !== 'Is' && bioText.substring(0, 3) !== 'Has') {
-      biosArray.push({
-        firstName: bio.firstName,
-        lastName: bio.lastName,
-        bioText: bio.bioText,
-        bioId: bio.timestamp,
-      });
-    } else {
-      const bioString = bioText.charAt(0).toLowerCase() + bioText.substring(1);
-      bioText = `${bio.firstName} ${bioString}`;
-      biosArray.push({
-        firstName: bio.firstName,
-        lastName: bio.lastName,
-        bioText,
-        bioId: bio.timestamp,
-      });
-    }
-  });
-
-  const compare = (a, b) => {
-    if (a.lastName < b.lastName) {
-      return -1;
-    }
-    if (a.lastName > b.lastName) {
-      return 1;
-    }
-    return 0;
-  };
-
-  biosArray.sort(compare);
+  const biosData = data.bios;
 
   return (
     <div className="biosBlock">
       <h3 className="biosBlock-title">Cast & Crew Bios</h3>
       <div className="biosBlock-wrapper">
-        {biosArray.map((bio) => {
+        {biosData.map((bio) => {
           return (
-            <div className="biosBlock-singleBio" id={bio.bioId}>
-              <h4 className="biosBlock-singleBio--title">
-                {bio.firstName} {bio.lastName}
-              </h4>
+            <div className="biosBlock-singleBio" key={bio.bioId}>
+              <h4 className="biosBlock-singleBio--title">{bio.name}</h4>
               <div className="biosBlock-singleBio--copyText">{bio.bioText}</div>
             </div>
           );
