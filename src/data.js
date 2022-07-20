@@ -14,7 +14,7 @@ export const data = {
         { role: "Patrick Pardman", name: "Kevin Kordis" },
         { role: "James Ryder", name: "Malachi Rosen" },
         { role: "Jones", name: "Catherine Hersh" },
-        { role: "Foley", name: "Red Stone" },
+        { role: "Foley", name: "Red Stone, Simone Agha" },
       ],
     },
     {
@@ -29,7 +29,7 @@ export const data = {
         { role: "Mr. Drysdale", name: "Andrew Winson" },
         { role: "Billy Porter", name: "Kevin Kordis" },
         { role: "Charlotte Fisher", name: "Livie Keane" },
-        { role: "Foley", name: "Simone Agha" },
+        { role: "Foley", name: "Simone Agha, Abigail Ripin" },
       ],
     },
     {
@@ -42,7 +42,7 @@ export const data = {
         { role: "Jean Daspry", name: "Philip Pierre-Louis" },
         { role: "Pauline Savari ", name: "Kate Mahoney" },
         { role: "Chloé Andermatt", name: "Bridget R. Saunders" },
-        { role: "Georges Andermatt", name: "TBA" },
+        { role: "Georges Andermatt", name: "Justus Perry" },
         { role: "Alfred Varin/Etienne Varin ", name: "Andrew Winson" },
         {
           role: "Chief Inspector Dudouis/Louis Lacombe",
