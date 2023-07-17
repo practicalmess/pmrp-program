@@ -1,358 +1,214 @@
-export const plan9 = 'PLAN_9';
-export const plan8 = 'PLAN_8';
-export const crew = 'CREW';
+export const scarlet = "scarlet";
+export const crew = "CREW";
 
 export const data = {
-  plan9: {
-    showName: 'Plan 9 From Outer Space',
+  scarlet: {
+    showName: "A Study in Scarlet",
     writerCredit:
-      'Adapted by Michael McAfee from the infamous 1959 film by Ed Wood',
-    directorCredit: 'Directed by Jess Viator',
+      "Adapted and directed by Jeremy Holstein from the 1887 novel by Sir Arthur Conan Doyle",
+    directorCredit: "Directed by Jeremy Holstein",
     description:
-      "Plan 9 from Outer Space is an original adaptation by Michael McAfee of the classic “so bad it’s good” film by Ed Wood, in which extraterrestrials reanimate Earthlings' dead bodies.",
+      "The PMRP Summer Mysteries return with A Study in Scarlet, the very first Sherlock Holmes adventure!",
     credits: [
-      { role: 'Criswell', name: 'Paul Springer' },
-      { role: 'Gen. Roberts / Gravedigger 2', name: 'Richard Bartlett' },
-      { role: 'Jeff', name: 'Matthew Slepin' },
-      { role: 'Paula / Mourner', name: 'Kate Mahoney' },
-      { role: 'Lt. Harper', name: 'Cari Keebaugh' },
-      { role: 'Larry / Rule', name: 'Brian Edgar' },
-      { role: 'Kelton / Captain', name: 'Joel Priest' },
-      { role: 'Clay / Mourner 2', name: 'Emma Joyce' },
-      { role: 'Eros / Bela', name: 'Leo Balkovetz' },
-      { role: 'Tanna / Vampira', name: 'Katie Meyers' },
-      { role: 'Col. Edwards / Gravedigger 1', name: 'Livie Keane' },
-      { role: 'Foley Captain', name: 'Keisha Warriner' },
-      { role: 'Foley Artist', name: 'Simone Agha' },
-    ],
-  },
-  plan8: {
-    showName: 'Plan 8 From the Outer Ether: A Steampunk Fiasco',
-    writerCredit: 'Written by Brian Rust',
-    directorCredit: 'Directed by Brian Rust and Jeremy Holstein',
-    description:
-      'Plan 8 From the Outer Ether: a Steampunk Fiasco is a comedy about a dysfunctional theater troupe attempting to put on a live radio play. The play they’re performing, Plan 8, is a prequel to the events in “Plan 9 From Outer Space”, set roughly 50 years prior to the other show.',
-    credits: [
-      { role: 'Narrator', name: 'Joev Dubach' },
-      { role: 'Auteur', name: 'Elizabeth Ross' },
-      { role: 'Detective', name: 'Keegan Hannon' },
-      { role: 'Cardiff', name: 'Juliet Wyse' },
-      { role: 'Riley', name: 'Kevin Kordis' },
-      { role: 'Illuminus', name: 'Phillip Pierre-Louis' },
-      { role: 'Zandex', name: 'Kitty Drexel' },
-      { role: 'Mendos', name: 'Hannah Baker' },
-      { role: 'Lawyer', name: 'Marissa Kennedy' },
-      { role: 'Belle', name: 'Rachel Tessler' },
-      { role: 'Foley Captain', name: 'Tori Queeno' },
-      { role: 'Foley Artist', name: 'S.L. "Red" Stone' },
+      { role: "Sherlock Holmes", name: "Andrew Harrington" },
+      { role: "Doctor Watson", name: "Chris Chiampa" },
+      { role: "Inspector Lestrade ", name: "Sam Tincler" },
+      { role: "Inspector Gregson", name: "Catherine Bromberg" },
+      { role: "Jefferson Hope ", name: "GM Hakim" },
+      { role: "Stamford, Stangerson", name: "Robert Thorpe II" },
+      { role: "Marine, Rance", name: "Jonathan Mendoza" },
+      { role: "Mrs. Hudson, Mme. Charpentier", name: "Diana Kennedy" },
+      { role: "Driver, Old Woman", name: "Marty Mason" },
+      { role: "Drebber", name: "Kevin Kordis" },
+      { role: "Wiggins, Alice", name: "Kim Dauber" },
+      { role: "Hotel, Arthur ", name: "Alex LaFreniere" },
+      { role: "Understudy ", name: "Mollie Bourne" },
+      { role: "Foley", name: "Simone Agha" },
+      { role: "Foley", name: "Rosie Sentman" },
+      { role: "Foley Understudy ", name: "Mollie Bourne" },
+      { role: "Foley Understudy ", name: "Tori Queeno" },
     ],
   },
   crew: {
-    showName: 'Crew',
+    showName: "Crew",
     credits: [
-      { role: 'Stage Manager', name: 'Jamie Lin' },
-      { role: 'Producers', name: 'Karen Sarao, Mare Freed' },
-      { role: 'House Manager', name: 'Mare Freed' },
-      { role: 'Sound Designer', name: 'Grace Gist' },
-      { role: 'Sound Board Operator', name: 'Sidney Hackney' },
-      { role: 'Sound Engineer', name: 'Jay Sekora' },
-      { role: 'Publicity Manager', name: 'Tori Queeno' },
-      { role: 'Graphic Designer', name: 'Jeremy Holstein' },
+      { role: "Director", name: "Jeremy Holstein" },
+      { role: "Assistant Director", name: "Tori Queeno" },
+      { role: "Stage Manager", name: "Meg Wickham" },
+      { role: "Assistant Stage Manager", name: "Coraline Holstein" },
+      { role: "Producer", name: "Chris DeKalb" },
+      { role: "House Manager", name: "Jacob Sommer" },
+      { role: "Sound Board Operator", name: "Joev Dubach" },
+      { role: "Sound Engineer", name: "Jay Sekora" },
+      { role: "Sound Engineering Consultant", name: "Ray Zaslow" },
+      { role: "Rehearsal Assistant", name: "Sidney Hackney" },
     ],
   },
   bios: [
     {
-      timestamp: '10/9/2021 14:12:16',
-      emailAddress: 'katiegmeyers@gmail.com',
-      firstName: 'Katie',
-      lastName: 'Meyers',
-      role: 'Tanna/Vampira/Plan 9',
-      bioText:
-        'Is happy to be joining PMRP for another fun show, especially since it is an opportunity to get some theater in before having a baby!',
+      name: "Simone Agha",
+      role: "ley and Foley Coordinator",
+      biotext:
+        "Simone is thrilled to be once again making noise for a PMRP production. This is her *mumbles*th show clip-clopping and stomping with PMRP.",
     },
+
     {
-      timestamp: '10/9/2021 16:21:45',
-      emailAddress: 'elizsross@gmail.com',
-      firstName: 'Elizabeth',
-      lastName: 'Ross',
-      role: 'The Auture',
+      name: "Mollie Bourne",
+      role: "Foley, Understudy",
       bioText:
-        'is excited to be performing again with PMRP! She recently appeared with PMRP as Sub-Commander Tal (Star Trek: The Enterprise Incident) and Kate Warne (Confidence Confidant). Her other work includes Epigenes (The Congresswomen) and Lussurioso (The Revengers Tragedy).',
+        "Mollie is looking forward to her first performance with PMRP as a foley artist. She has greatly enjoyed learning a new skill and about the world of radio theatre.",
     },
+
     {
-      timestamp: '10/9/2021 18:41:57',
-      emailAddress: 'richbartlett@verizon.net',
-      firstName: 'Richard ',
-      lastName: 'Bartlett',
-      role: 'General Roberts, Gravedigger 2, Bela / Plan 9',
+      name: "Catherine Bromberg",
+      role: "Tobias Gregson",
       bioText:
-        'Richard  Bartlett is happy to be back with PMRP after that day the Earth Stood still and telling another tale of visitors from outer space. Doing it on the anniversary of the 1938 Martian invasion just adds to the fun.',
+        'Catherine feels delighted and lucky to be part of "A Study in Scarlet."  She has performed in more than a dozen PMRP productions, including several summer mysteries, a number of Gender-Swapped Star Trek episodes, a few Halloween extravaganzas, and some spring spectaculars, starting with The Scarlet Pimpernel (A potential scarlet theme!). She’s also performed with Theatre @ First, Theatre to Go, Wax Wings Productions, and the Balkan music band Zdravets. Catherine is extremely grateful to her family and her friends-who-are-also-family for letting her come out to play, and for being awesome.',
     },
+
     {
-      timestamp: '10/10/2021 7:39:36',
-      emailAddress: 'stonekitten2109@gmail.com',
-      firstName: 'S.L. (Red)',
-      lastName: 'Stone',
-      role: 'Foley Artist for Plan 8',
+      name: "Chris Chiampa",
+      role: "Doctor Watson",
       bioText:
-        'Red, lead singer of the punk band "The Double Helix Factory" and stage manager / interviewer for The Evil Expo, makes their billionth appearance for PMRP as a foley artist for "Plan 8." Check out my interview with "Troma Studios" at EvilExpo.com!',
+        "Chris can't quite believe how long he's been playing this role. It's been a delight. Thank you all for coming through the years.",
     },
+
     {
-      timestamp: '10/10/2021 17:15:17',
-      emailAddress: 'luckylitwit@gmail.com',
-      firstName: 'Cari',
-      lastName: 'Keebaugh',
-      role: 'Lt. Harper/Plan 9',
+      name: "Kim Dauber",
+      role: "Alice, Wiggins",
       bioText:
-        'is delighted to be performing again with PMRP! When not arguing with aliens, Cari stalks the gaslit streets of Victorian London as Mrs. Hawking (http://www.MrsHawking.com). And listen for a ‘devilishly’ familiar voice in the forthcoming project “The Renegotiation.” She is a fan of glitter and tea.',
+        "Sculpted from clay by her mother Queen Hippolyta, Kim was given a life as an Amazon on the island of Themyscira and sent to the world of man as an ambassadort.  She possesses an arsenal of magical items, including the Lasso of Truth, a pair of indestructible bracelets and a tiara which can serve as a projectile.  Don’t mess.",
     },
+
     {
-      timestamp: '10/10/2021 19:00:12',
-      emailAddress: 'kmdrexel@gmail.com',
-      firstName: 'Kitty',
-      lastName: 'Drexel',
-      role: 'Zandex/Dog',
+      name: "Chris DeKalb",
+      role: "Producer",
       bioText:
-        "Kitty Drexel [she/her/we] is a disabled, queer performing artist and critic living with Brachial Plexus Palsy. It is an absolute miracle to be performing live again!  Please wear your mask over your nose and mouth, get vaccinated (it's free!), and wash your hands so performances stay live.",
+        'Chris is glad to be back for yet another dastardly mystery of "so what does Moxie taste like?".  Oh, and Sherlock Holmes too! ',
     },
+
     {
-      timestamp: '10/11/2021 0:43:34',
-      emailAddress: 'simone.agha@gmail.com',
-      firstName: 'Simone',
-      lastName: 'Agha',
-      role: 'Foley/Plan 9',
+      name: "Joev Dubach",
+      role: "Sound Board",
       bioText:
-        "is excited to be back doing Foley with PMRP. While she's been several horses and a bat this is her first time being a UFO.",
+        "An omniscient narrator reports that Joev has worked with the PMRP for the past ten years and that this is his twenty-fifth show! But he's still a New Arrival at heart. In his spare time, Joev enjoys improvisational free fitness hilarity with November Project Boston (november-project.com/boston). Just show up!",
     },
+
     {
-      timestamp: '10/11/2021 8:28:18',
-      emailAddress: 'thefiendish@gmail.com',
-      firstName: 'Matthew',
-      lastName: 'Slepin',
-      role: 'Jeff Trent',
+      name: "GM Hakim",
+      role: "Jefferson Hope) is a professional voice actor who does voiceover work in commercials, video games, animation, audiobook narration, the corporate world, podcasts, and e-learning platforms at www.gmhakim.com. He did his voice acting training and coaching at Abacus Entertainment in New York City, where he also recorded his demos. He studied broadcast and print journalism at Syracuse University, where he had a weekly radio show on WAER-FM for three years. He taught middle school English, theater, and improv from 2006-2023, mostly in Montessori schools. When he's not doing voice acting, you can find him writing, playing board games, playing guitar, leading Dungeons & Dragons games as a Dungeon Master, riding his bike, reading, cooking, and spending time with his wife and adorable toddler. This is GM's second show with PMRP.",
+    },
+
+    {
+      name: "Andrew Harrington",
+      role: "Sherlock Holmes",
       bioText:
-        'Matthew is new to PMRP and was last seen in Theatre III’s production of California Suite.  He has seen the film Plan 9 From Outer Space too many times to be good for him and hopes someday to be reanimated by an electrode gun.',
+        "Andrew has been with this PMRP game since it was first set afoot with The Hound of the Baskervilles in 2012. Andrew is active in local community theater, mostly in the suburbs north and west of Boston. In the past year or so, he has worked with Nashoba Players in Westford (Froggy LeSueur in The Foreigner), Acme Theater in Maynard (Rod Trusser in Neighbourhood Watch), and Cannon Theatre in Devens (Birdboot in The Real Inspector Hound). You can see Andrew regularly in the summers performing outdoor Shakespeare in Concord with World's a Stage Players, the Concord Players' Shakespeare troupe.",
     },
+
     {
-      timestamp: '10/11/2021 12:25:05',
-      emailAddress: 'freed.mary@gmail.com',
-      firstName: 'Mare',
-      lastName: 'Freed',
-      role: 'Producer/House Manager',
+      name: "Sid Hackney",
+      role: "Rehearsal Assistant",
       bioText:
-        'Mare Freed is the Managing Director of PMRP. "Metropolis" Is a dream come true for her, after seeing the 1927 movie and proclaiming "We must adapt this for radio theatre!" And here we are. Hope you enjoy!',
+        "Sid is a cutting edge artificial intelligence occupied mostly with picking up after cats and making this digital program. This is their second show with PMRP.",
     },
+
     {
-      timestamp: '10/11/2021 19:10:18',
-      emailAddress: 'cbalkovetz@gmail.com',
-      firstName: 'Leo',
-      lastName: 'Balkovetz',
-      role: 'Eros ',
+      name: "Coraline Holstein",
+      role: "Assistant Stage Manager",
       bioText:
-        'is thrilled for his first performance with PMRP. When he’s not preventing an intergalactic cold war, Leo is an operatic tenor.  He was last seen as Guy in the world premiers of Gala Flagello’s “You Reap What You Soul” and The Reporter in Byron Asher’s “Bedbug”. He also teaches preschool! ',
+        " After completing her training as a 00 agent for the British Government, Coraline is currently in a deep cover assignment as a student at the Billerica High School.  Shhh.  Don’t blow her cover.",
     },
+
     {
-      timestamp: '10/11/2021 19:14:51',
-      emailAddress: 'michaelmcafee11@gmail.com',
-      firstName: 'Michael',
-      lastName: 'McAfee',
-      role: 'Writer/Plan 9 from outer Space',
+      name: "Jeremy Holstein",
+      role: "Adaptor/Director",
       bioText:
-        'is a long time participant with PMRP. His past scripts include "The Silver Shade" and "The Frankenstein Murders". His future projects include adapting the classic film "Metropolis" to audio theater, producing one of the shows at Arisia 2022, and helping with a couple of "Mrs. Hawking" projects.',
+        "Jeremy can’t believe that he’s been adapting/directing Holmes for over a decade, and is eternally grateful for his casts and family for putting up with his eccentric ways.  Jeremy has written over 25 scripts for the company, and is the current Artistic Director for the PMRP.",
     },
+
     {
-      timestamp: '10/12/2021 11:39:12',
-      emailAddress: 'sir.paulimedes@gmail.com',
-      firstName: 'Paul',
-      lastName: 'Springer',
-      role: 'The Amazing Criswell (Plan 9)',
+      name: "Diana Kennedy",
+      role: "Mrs. Hudson/Mme. Charpentier",
       bioText:
-        'has once again stumbled down from his mountain hut to bring grim tidings to all in the form of definitely accurate predictions about the future. He enjoys using his newfound mental prowess to divide by zero.',
+        "Diana (she/her) is thrilled to be making her PMRP debut. Recent roles include The Trojan Women (Andromache), Closing Doors (Sandra), Mastergate (Merry Chase), The Monologue Show (Olivia), King Lear (Goneril), and Sense & Sensibility (Fanny/Lucy - NH Theatre Guild Awards Finalist). Diana is also a voice talent appearing on #1 Spotify-ranking audio drama Cascadia, the extended audio narration for Bardsung with Forteller Games (nominated for a Skelly Award), and is in production for a fully animated rendition of Warriors: Into the Wild as Bluestar. Diana would like to thank JJ Doggie Fluffycakes, The Tall Bald Man, and her mom for their support. www.dianahelenkennedy.com",
     },
+
     {
-      timestamp: '10/12/2021 14:38:24',
-      emailAddress: 'brian.xavier.edgar@gmail.com',
-      firstName: 'Brian',
-      lastName: 'Edgar',
-      role: 'Larry,Ruler/Plan 9',
+      name: "Kevin Kordis",
+      role: "Drebber",
       bioText:
-        'is happy to finally live his dream of being an intergalactic overlord.  ',
+        "Kevin is delighted to be returning to PMRP’s Summer Mysteries. He is thrilled and honored to once again have the opportunity to collaborate on another Sherlock Holmes story.",
     },
+
     {
-      timestamp: '10/12/2021 15:06:40',
-      emailAddress: 'kathleenm359@aol.com',
-      firstName: 'Kate',
-      lastName: 'Mahoney',
-      role: 'Paula',
+      name: "Alex LaFreniere",
+      role: "Arthur, Hotel, Baker St. Irregular",
       bioText:
-        'is thrilled to return to theater, especially to her friends at PMRP. Previous roles include Deirdre/Narrator in Beyond Grimm, Ensemble in Dracula, Schwartz in Moriarty Mysteries, Mrs. Turner in Sherlock Holmes, Mrs. Tadworth in Lady Molly of Scotland Yard, and Mrs. Enfield in Jekyll and Hyde.',
+        "Alex is excited to be returning to the stage for his fourth show with PMRP, having previously appeared in the PMRP productions of Beyond Grimm, Tomes of Terror, and Metropolis. In addition to his work at PMRP, Alex has provided voiceover for animation, games, radio plays, and narration. You can find a sampling of his work and his voiceover reel at www.alexlafren.com. He would like to thank his partner Jazz, his cat Kevin, and his family for their love and support.",
     },
+
     {
-      timestamp: '10/12/2021 23:27:50',
-      emailAddress: 'RachelTessler510@gmail.com',
-      firstName: 'Rachel',
-      lastName: 'Tessler',
-      role: 'Belle',
+      name: "Marty Mason",
+      role: "Driver, Old Woman",
       bioText:
-        "Rachel is new to PMRP and is back on the stage after 5 years! Rachel's previous shows have included The Vagina Monologues, Into the Woods, The Miracle Worker among many others. Rachel is really excited to be a part of this production and would like to thank the cast and crew for their awesomeness. ",
+        "Marty is thrilled to be back on the PMRP stage! Recent credits include Honeyhole (Moonbox Productions), Miss Bennet: Christmas at Pemberley (Burlington Players), Do Not Disturb (Acme Theater), Drinking Habits (Colonial Chorus Players), and Solitaire Suite (Hub Theatre Company). Much love and gratitude to her husband Ben, babies Will and Louisa, and furbabies Ziggy and Harriet for all their support (and snuggles) along the way.",
     },
+
     {
-      timestamp: '10/14/2021 11:16:43',
-      emailAddress: 'brust@berklee.edu',
-      firstName: 'Brian',
-      lastName: 'Rust',
-      role: 'Writer and co-director',
+      name: "Jonathan Mendoza",
+      role: "Rance, Marine",
       bioText:
-        "Brian got his start in live radio theater with PMRP's 'Red Shift: Interplanetary Do-Gooder', and is grateful for the chance to bring a little more sci-fi goofiness to Davis Square.  His current work in progress is 'Cryptids of Greater Allston'.",
+        "Born due to a series of lucky dice rolls and the tolerance of a very gracious Game Master, Jonathan’s character sheet has levels in actor, classically-trained singer, eSports commentator, gamer, and producer, with his most recent multi class being drama therapist with a focus in therapeutic roleplaying games.. He showed up as an emotional support partner during Tori’s assistant director debut, and then wasn’t allowed to leave (but is thrilled to be in his first show with PMRP nonetheless).",
     },
+
     {
-      timestamp: '10/17/2021 21:52:39',
-      emailAddress: 'keegan.hannon@gmail.com',
-      firstName: 'Keegan',
-      lastName: 'Hannon',
-      role: 'Detective',
+      name: "Tori Queeno",
+      role: "(Assistant Director, Foley",
       bioText:
-        "Keegan always knew they'd call him back for one more case. He'd last been seen working on a podcast called \"The Movie Critics\", but there are some cases that even the best gumshoes can't walk away from.",
+        "Tori is thrilled to be participating in their 14th production with PMRP, this time making their Assistant Directorial debut! (And understudying foley, of course.) They look forward to many future shows both onstage and behind the scenes. You can also see them frequently performing in TTRPG actual play productions online, which you can keep up with by following them on social media as ThatNerdTori on all platforms. They would like to thank their partner, Jon, for loving and supporting them in their creative endeavors and also allowing Tori to rope him into PMRP finally, as well as their cat Persephone for being a benevolent furry overlord. ",
     },
+
     {
-      timestamp: '10/18/2021 12:39:30',
-      emailAddress: 'joyce.emma.e@gmail.com',
-      firstName: 'Emma',
-      lastName: 'Joyce',
-      role: 'Inspector Clay/Mourner 2',
+      name: "Jay Sekora",
+      role: "Sound Tech",
       bioText:
-        "has been working with PMRP since 2014 and will return to PMRP's Santa Claus Conquers the Martians this December. She has put a lot of effort into her role in Plan 9 and hopes you will enjoy her carefully crafted array of zombie moans and growls.",
+        "Jay has been involved with PMRP as an actor (“The Tell-Tale Heart”, “Junkyard”, “The Birds”) and director (“Metropolis”, “THEM!”, “Filibus”).  Come see the ten-year-anniversary reprise of his adaptation of “Night of the Living Dead” as part of PMRP’s Halloween show!  He is grateful to his beloved partner (and PMRP’s managing director) Mare Freed for many things, among them getting him back into theater after a many-decades hiatus.",
     },
+
     {
-      timestamp: '10/19/2021 15:10:06',
-      emailAddress: 'joel.priest@gmail.com',
-      firstName: 'Joel',
-      lastName: 'Priest',
-      role: 'Kelton & Captain/Plan 9',
+      name: "Jacob Sommer",
+      role: "House Manager",
       bioText:
-        'has a long history of making things up. After living in his Y2K bunker for twenty years, he finally re-emerged in 2019 to replenish his stock of canned beans. After discovering that society had not yet completely crumbled, he got back on stage and performed in a local production of Matilda. ',
+        " Magic 8 Ball says / Still polishing cthulhoid frog /Ask again later",
     },
+
     {
-      timestamp: '10/19/2021 16:04:22',
-      emailAddress: 'thatnerdtori@gmail.com',
-      firstName: 'Tori',
-      lastName: 'Queeno',
-      role: 'Foley Lead',
+      name: "Sam Tincler",
+      role: "Inspector Lestarde",
       bioText:
-        "This is Tori's 11th show with PMRP! They have performed as a foley artist many times and played the title role in PMRP's 2019 spring show, Filibus: The Mysterious Sky Pirate. They would like to thank their cat for getting them through lockdown and their partner for insisting they are good at stuff. ",
+        "Sam is a nonbinary Somerville cryptid and a grown-up theater kid. They consider themself a big fan of Sherlock Homes and Sherlock Holmes adaptations - everything from the original stories to The Great Mouse Detective and Elementary. This is Sam's first time working with the PMRP, and in professional terms, they're absolutely stoked.",
     },
+
     {
-      timestamp: '10/19/2021 16:08:06',
-      emailAddress: 'snackney@gmail.com',
-      firstName: 'Sid',
-      lastName: 'Hackney',
-      role: 'Sound Board Operator',
+      name: "Robert Thorpe II",
+      role: "Stamford, Stangerson",
       bioText:
-        'is a long time fan, first time crew member, and a Plan 9 enthusiast. They are very excited to begin their PMRP career.',
+        "Rocketed away from a dying planet, Robert was discovered in a corn field by an elderly farming couple.  Now fully grown, he is faster than a speeding bullet, more powerful than a locomotive and able to leap tall buildings in a single bound.  He could have been a superhero, but chose theatre instead.",
     },
+
     {
-      timestamp: '10/19/2021 21:01:44',
-      emailAddress: 'philpierrelouis92@yahoo.com',
-      firstName: 'Philip',
-      lastName: 'Pierre-Louis',
-      role: 'Illuminus',
+      name: "Meg Wickham",
+      role: "Stage Manager",
       bioText:
-        "For the last time, there's no such thing as Phil. It's all in your head!",
+        "Meg is a slightly odd garden sprite who has been stalking PMRP members for nearly a decade. The cast is lucky this show is ending before the Great Beanpocalypse has her sneaking upcoming harvests into people’s bags because she overplanted again.,",
     },
+
     {
-      timestamp: '10/20/2021 0:16:56',
-      emailAddress: 'kewarriner@gmail.com',
-      firstName: 'Keisha',
-      lastName: 'Warriner',
-      role: 'Foley/Plan 9 (Foley Captain per cast list)',
+      name: "Ray Zaslow",
+      role: "Sound Engineering Consultant",
       bioText:
-        'Keisha Warriner has many nerdy and creative hobbies (fantasy painting, tabletop gaming, map collecting, reading some early science fiction) but they are thrilled to be back with PMRP to add "making alien sounds" to that list. ',
-    },
-    {
-      timestamp: '10/20/2021 11:08:28',
-      emailAddress: 'skeletonsiro@gmail.com',
-      firstName: 'Jules',
-      lastName: 'Wyse',
-      role: 'Cardiff',
-      bioText:
-        'Jules plays Cardiff in Plan 8 from the Outer Ether, and does a pretty good job. ',
-    },
-    {
-      timestamp: '10/20/2021 14:29:02',
-      emailAddress: 'js@aq.org',
-      firstName: 'Jay',
-      lastName: 'Sekora',
-      role: 'sound engineer',
-      bioText:
-        'has played a roaring-drunk space explorer making contact with an alien intelligence and the ghost of Edgar Allan Poe and directed adaptations of "Night of the Living Dead" and "Filibus: The Mysterious Sky Pirate".  He thanks his beloved Mare for theater and other shared joys.',
-    },
-    {
-      timestamp: '10/20/2021 20:44:01',
-      emailAddress: 'kevin.kordis@gmail.com',
-      firstName: 'Kevin ',
-      lastName: 'Kordis ',
-      role: 'Reilly, Elf1, Brit, etc.',
-      bioText:
-        'Local actor/playwright who is delighted to be back to in-person theatre with one of his favorite companies. He is next set to conquer Mars as Santa in PMRP’s reprisal of Santa Clause Conquers the Martians.',
-    },
-    {
-      timestamp: '10/20/2021 23:44:24',
-      emailAddress: 'g.squared.lpi@gmail.com',
-      firstName: 'Grace',
-      lastName: 'Gist',
-      role: 'Sound design',
-      bioText:
-        'Grace Gist (sound design) has been crafting various sounds for PMRP since 2016.  Tonight’s sounds were definitely assembled through totally normal technological means, and not at all through esoteric rituals of acoustical gramarye.',
-    },
-    {
-      timestamp: '10/21/2021 0:41:14',
-      emailAddress: 'okeane@mac.com',
-      firstName: 'Livie',
-      lastName: 'Keane',
-      role: 'Colonel Edwards/Gravedigger',
-      bioText:
-        'Livie Keane is a mad engineer who enjoys knitted math, strange declensions, and general adventuring. This is her first live show with PMRP, but she can be found in the Ensemble of The Arrest of Arsène Lupin, amongst other theatrical endeavors. ',
-    },
-    {
-      timestamp: '10/21/2021 16:00:34',
-      emailAddress: 'jholstei@crocker.com',
-      firstName: 'Jeremy',
-      lastName: 'Holstein',
-      role: 'Co-Director, Plan 8',
-      bioText:
-        'is mainly a writer, director, and Artistic Director for PMRP, running Summer Mysteries since 2013. He occasionally appears at the mic in shows like Santa Claus Conquers the Martians. He is currently collaborating on the script for the forthcoming Metropolis. He thanks his wife & child for indulging his many nights spent on ZOOM or in Davis to satisfy his radio theater addiction.',
-    },
-    {
-      timestamp: '10/21/2021 16:03:20',
-      emailAddress: 'mslin93@gmail.com',
-      firstName: 'Jamie',
-      lastName: 'Lin',
-      role: 'Stage Manager',
-      bioText:
-        "is delighted to help bring spooky, silly sounds back to Boston Brunch Church (live!). She was last seen Zoomily as Mirror Sulu in PMRP's Gender-Swapped Star Trek. Thanks to the cast & crew for bearing with her last-minute emails, and thank YOU, dear audience member, for coming to hear and experience the cast's delightful voice noises!",
-    },
-    {
-      firstName: 'Joev',
-      lastName: 'Dubach',
-      bioText:
-        'has worked with PMRP on too many shows to count! In his spare time, Joev enjoys improvisational free fitness hilarity with November Project Boston (november-project.com/boston). (Just show up!)',
-    },
-    {
-      firstName: 'Hannah',
-      lastName: 'Baker',
-      bioText: 'is the secret mastermind behind plans one through seven.',
-    },
-    {
-      firstName: 'Marissa',
-      lastName: 'Kennedy',
-      bioText:
-        'is a monotypic genus created for the non-venomous dwarf boa species,',
-    },
-    {
-      firstName: 'Karen',
-      lastName: 'Sarao',
-      bioText:
-        'is the most variably sized order of vertebrates, ranging from the 7mm Schindleria brevipinguis to the 5m marlin.',
+        "Destined to be a sound legend.  That’s really all there is to it.",
     },
   ],
 };
