@@ -47,8 +47,8 @@ export const data = {
   bios: [
     {
       name: "Simone Agha",
-      role: "ley and Foley Coordinator",
-      biotext:
+      role: "Foley and Foley Coordinator",
+      bioText:
         "Simone is thrilled to be once again making noise for a PMRP production. This is her *mumbles*th show clip-clopping and stomping with PMRP.",
     },
 
@@ -96,7 +96,8 @@ export const data = {
 
     {
       name: "GM Hakim",
-      role: "Jefferson Hope) is a professional voice actor who does voiceover work in commercials, video games, animation, audiobook narration, the corporate world, podcasts, and e-learning platforms at www.gmhakim.com. He did his voice acting training and coaching at Abacus Entertainment in New York City, where he also recorded his demos. He studied broadcast and print journalism at Syracuse University, where he had a weekly radio show on WAER-FM for three years. He taught middle school English, theater, and improv from 2006-2023, mostly in Montessori schools. When he's not doing voice acting, you can find him writing, playing board games, playing guitar, leading Dungeons & Dragons games as a Dungeon Master, riding his bike, reading, cooking, and spending time with his wife and adorable toddler. This is GM's second show with PMRP.",
+      bioText:
+        "GM is a professional voice actor who does voiceover work in commercials, video games, animation, audiobook narration, the corporate world, podcasts, and e-learning platforms at www.gmhakim.com. He did his voice acting training and coaching at Abacus Entertainment in New York City, where he also recorded his demos. He studied broadcast and print journalism at Syracuse University, where he had a weekly radio show on WAER-FM for three years. He taught middle school English, theater, and improv from 2006-2023, mostly in Montessori schools. When he's not doing voice acting, you can find him writing, playing board games, playing guitar, leading Dungeons & Dragons games as a Dungeon Master, riding his bike, reading, cooking, and spending time with his wife and adorable toddler. This is GM's second show with PMRP.",
     },
 
     {
