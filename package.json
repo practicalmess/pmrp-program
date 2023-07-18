@@ -1,8 +1,8 @@
 {
-  "name": "pmrp-plan-9",
+  "name": "pmrp-program",
   "version": "1.0.0",
   "private": true,
-  "description": "pmrp-plan-9",
+  "description": "pmrp-program",
   "author": "Sid Hackney",
   "keywords": [
     "gatsby"
@@ -15,10 +15,10 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.0.0",
-    "gatsby-plugin-sass": "^5.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "gatsby": "^5.0.0",
+    "gatsby-plugin-sass": "^6.0.0",
+    "react": "^18.0.1",
+    "react-dom": "^18.0.1",
     "react-scroll": "^1.8.9",
     "sass": "^1.43.3"
   }
