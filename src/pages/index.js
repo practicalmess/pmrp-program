@@ -1,9 +1,9 @@
-import React, { useRef, useEffect } from 'react';
-import CreditsBlock from '../components/CreditsBlock.js';
-import Bios from '../components/Bios.js';
-import ResponsiveHeroImage from '../components/ResponsiveHeroImage.js';
-import useWindowDimensions from '../utilities/useWindowDimensions.js';
-import * as Scroll from 'react-scroll';
+import React, { useRef, useEffect } from "react";
+import CreditsBlock from "../components/CreditsBlock.js";
+import Bios from "../components/Bios.js";
+import ResponsiveHeroImage from "../components/ResponsiveHeroImage.js";
+import useWindowDimensions from "../utilities/useWindowDimensions.js";
+import * as Scroll from "react-scroll";
 import {
   Link,
   Button,
@@ -12,27 +12,12 @@ import {
   animateScroll as scroll,
   scrollSpy,
   scroller,
-} from 'react-scroll';
-import { plan9, plan8, crew } from '../data.js';
-import '../styles.scss';
-
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+} from "react-scroll";
+import { data } from "../data.js";
+import "../styles.scss";
 
 const IndexPage = () => {
-  // useEffect(() => {
-  //   Events.scrollEvent.register('begin', (to, element) => {
-  //     console.log('scroll begin', arguments);
-  //   });
-  //   Events.scrollEvent.register('end', (to, element) => {
-  //     console.log('scroll end', arguments);
-  //   });
-
-  //   scrollSpy.update();
-  // });
-  // const bioRefs = () =>
-  const goToBio = (scrollRef) => {
-    scrollRef.current.scrollIntoView();
-  };
+  const scrollToBio = (name) => scroller.scrollTo(name);
 
   return (
     <body>
@@ -41,10 +26,10 @@ const IndexPage = () => {
         <ResponsiveHeroImage />
         {useWindowDimensions().width < 530 && (
           <h4 className="postHeader">
-            Plus! The never before revealed to the public{' '}
+            Plus! The never before revealed to the public{" "}
             <span className="highlightText">
               "Plan 8 from the Outer Ether!"
-            </span>{' '}
+            </span>{" "}
             by Brian Rust
           </h4>
         )}
@@ -52,9 +37,8 @@ const IndexPage = () => {
       <div className="content">
         <div className="credits">
           {/*<ATFProgramInfo />*/}
-          <CreditsBlock show={plan9} />
-          <CreditsBlock show={plan8} />
-          <CreditsBlock show={crew} />
+          <CreditsBlock show={data.scarlet} goToBio={scrollToBio} />
+          <CreditsBlock show={data.crew} goToBio={scrollToBio} />
           {/*<BTFProgramInfo />*/}
         </div>
         <div>
