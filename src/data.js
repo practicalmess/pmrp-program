@@ -15,10 +15,10 @@ export const data = {
       { role: "Inspector Lestrade ", name: "Sam Tincler" },
       { role: "Inspector Gregson", name: "Catherine Bromberg" },
       { role: "Jefferson Hope ", name: "GM Hakim" },
-      { role: "Stamford, Stangerson", name: "Robert Thorpe II" },
+      { role: "Stamford, Stangerson", name: "Robert Thorpe\xa0II" },
       { role: "Marine, Rance", name: "Jonathan Mendoza" },
-      { role: "Mrs. Hudson, Mme. Charpentier", name: "Diana Kennedy" },
-      { role: "Driver, Old Woman", name: "Marty Mason" },
+      { role: "Mrs.\xa0Hudson, Mme.\xa0Charpentier", name: "Diana Kennedy" },
+      { role: "Driver, Old\xa0Woman", name: "Marty Mason" },
       { role: "Drebber", name: "Kevin Kordis" },
       { role: "Wiggins, Alice", name: "Kim Dauber" },
       { role: "Hotel, Arthur ", name: "Alex LaFreniere" },
@@ -191,7 +191,7 @@ export const data = {
     },
 
     {
-      name: "Robert Thorpe II",
+      name: "Robert Thorpe\xa0II",
       role: "Stamford, Stangerson",
       bioText:
         "Rocketed away from a dying planet, Robert was discovered in a corn field by an elderly farming couple.  Now fully grown, he is faster than a speeding bullet, more powerful than a locomotive and able to leap tall buildings in a single bound.  He could have been a superhero, but chose theatre instead.",
