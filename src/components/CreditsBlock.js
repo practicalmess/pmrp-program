@@ -26,13 +26,14 @@ const SingleCredit = ({ credit, goToBio }) => {
   const {width} = useWindowDimensions();
   const wrapFixRole = role.length > 16 && width < 400;
   const wrapFixName = name.length > 16 && width < 400;
+
   
 
   return (
     <div className="singleCredit">
-      <span className={`singleCredit-role ${wrapFixRole ? "wrapFix" : ""}`}>{role}</span>
+      <span className={`singleCredit-role ${wrapFixRole ? "wrapFix" : "noFix"}`}>{role}</span>
       <span className="dots"></span>
-      <a onClick={() => goToBio(name)} className={`singleCredit-name ${wrapFixName ? "wrapFix" : ""}`}>
+      <a onClick={() => goToBio(name)} className={`singleCredit-name ${wrapFixName ? "wrapFix" : "noFix"}`}>
         {name}
       </a>
     </div>
