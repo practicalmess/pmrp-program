@@ -2,15 +2,7 @@ import React, { useRef, useEffect } from "react";
 import CreditsBlock from "../components/CreditsBlock.js";
 import Bios from "../components/Bios.js";
 import ResponsiveHeroImage from "../components/ResponsiveHeroImage.js";
-import useWindowDimensions from "../utilities/useWindowDimensions.js";
-import * as Scroll from "react-scroll";
 import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
   scroller,
 } from "react-scroll";
 import { data } from "../data.js";
