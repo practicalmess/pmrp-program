@@ -4,5 +4,4 @@ package-lock.json
 public
 .env*
 pmrp-*.json
->>>>>>> 9e1edc3 (Ignore env file)
 
