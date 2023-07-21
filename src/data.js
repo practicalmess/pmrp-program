@@ -45,6 +45,8 @@ export const data = {
   },
   bios: [
     {
+      firstName: "Simone",
+      lastName: "Agha",
       name: "Simone Agha",
       role: "Foley and Foley Coordinator",
       bioText:
@@ -52,6 +54,8 @@ export const data = {
     },
 
     {
+      firstName: "Mollie",
+      lastName: "Bourne",
       name: "Mollie Bourne",
       role: "Foley, Understudy",
       bioText:
@@ -59,6 +63,8 @@ export const data = {
     },
 
     {
+      firstName: "Catherine",
+      lastName: "Bromberg",
       name: "Catherine Bromberg",
       role: "Tobias Gregson",
       bioText:
@@ -66,6 +72,8 @@ export const data = {
     },
 
     {
+      firstName: "Chris",
+      lastName: "Chiampa",
       name: "Chris Chiampa",
       role: "Doctor Watson",
       bioText:
@@ -73,6 +81,8 @@ export const data = {
     },
 
     {
+      firstName: "Kim",
+      lastName: "Dauber",
       name: "Kim Dauber",
       role: "Alice, Wiggins",
       bioText:
@@ -80,6 +90,8 @@ export const data = {
     },
 
     {
+      firstName: "Chris",
+      lastName: "DeKalb",
       name: "Chris DeKalb",
       role: "Producer",
       bioText:
@@ -87,6 +99,8 @@ export const data = {
     },
 
     {
+      firstName: "Joev",
+      lastName: "Dubach",
       name: "Joev Dubach",
       role: "Sound Board",
       bioText:
@@ -94,12 +108,16 @@ export const data = {
     },
 
     {
+      firstName: "GM",
+      lastName: "Hakim",
       name: "GM Hakim",
       bioText:
         "GM is a professional voice actor who does voiceover work in commercials, video games, animation, audiobook narration, the corporate world, podcasts, and e-learning platforms at www.gmhakim.com. He did his voice acting training and coaching at Abacus Entertainment in New York City, where he also recorded his demos. He studied broadcast and print journalism at Syracuse University, where he had a weekly radio show on WAER-FM for three years. He taught middle school English, theater, and improv from 2006-2023, mostly in Montessori schools. When he's not doing voice acting, you can find him writing, playing board games, playing guitar, leading Dungeons & Dragons games as a Dungeon Master, riding his bike, reading, cooking, and spending time with his wife and adorable toddler. This is GM's second show with PMRP.",
     },
 
     {
+      firstName: "Andrew",
+      lastName: "Harrington",
       name: "Andrew Harrington",
       role: "Sherlock Holmes",
       bioText:
@@ -107,13 +125,17 @@ export const data = {
     },
 
     {
-      name: "Sid Hackney",
+      firstName: "Sidney",
+      lastName: "Hackney",
+      name: "Sidney Hackney",
       role: "Rehearsal Assistant",
       bioText:
         "Sid is a cutting edge artificial intelligence occupied mostly with picking up after cats and making this digital program. This is their second show with PMRP.",
     },
 
     {
+      firstName: "Coraline",
+      lastName: "Holstein",
       name: "Coraline Holstein",
       role: "Assistant Stage Manager",
       bioText:
@@ -121,6 +143,8 @@ export const data = {
     },
 
     {
+      firstName: "Jeremy",
+      lastName: "Holstein",
       name: "Jeremy Holstein",
       role: "Adaptor/Director",
       bioText:
@@ -128,6 +152,8 @@ export const data = {
     },
 
     {
+      firstName: "Diana",
+      lastName: "Kennedy",
       name: "Diana Kennedy",
       role: "Mrs. Hudson/Mme. Charpentier",
       bioText:
@@ -135,6 +161,8 @@ export const data = {
     },
 
     {
+      firstName: "Kevin",
+      lastName: "Kordis",
       name: "Kevin Kordis",
       role: "Drebber",
       bioText:
@@ -142,6 +170,8 @@ export const data = {
     },
 
     {
+      firstName: "Alex",
+      lastName: "LaFreniere",
       name: "Alex LaFreniere",
       role: "Arthur, Hotel, Baker St. Irregular",
       bioText:
@@ -149,6 +179,8 @@ export const data = {
     },
 
     {
+      firstName: "Marty",
+      lastName: "Mason",
       name: "Marty Mason",
       role: "Driver, Old Woman",
       bioText:
@@ -156,6 +188,8 @@ export const data = {
     },
 
     {
+      firstName: "Jonathan",
+      lastName: "Mendoza",
       name: "Jonathan Mendoza",
       role: "Rance, Marine",
       bioText:
@@ -163,6 +197,8 @@ export const data = {
     },
 
     {
+      firstName: "Tori",
+      lastName: "Queeno",
       name: "Tori Queeno",
       role: "(Assistant Director, Foley",
       bioText:
@@ -170,6 +206,8 @@ export const data = {
     },
 
     {
+      firstName: "Jay",
+      lastName: "Sekora",
       name: "Jay Sekora",
       role: "Sound Tech",
       bioText:
@@ -177,6 +215,8 @@ export const data = {
     },
 
     {
+      firstName: "Jacob",
+      lastName: "Sommer",
       name: "Jacob Sommer",
       role: "House Manager",
       bioText:
@@ -184,6 +224,8 @@ export const data = {
     },
 
     {
+      firstName: "Sam",
+      lastName: "Tincler",
       name: "Sam Tincler",
       role: "Inspector Lestarde",
       bioText:
@@ -191,6 +233,8 @@ export const data = {
     },
 
     {
+      firstName: "Robert",
+      lastName: "Thorpe\xa0II",
       name: "Robert Thorpe\xa0II",
       role: "Stamford, Stangerson",
       bioText:
@@ -198,6 +242,8 @@ export const data = {
     },
 
     {
+      firstName: "Meg",
+      lastName: "Wickham",
       name: "Meg Wickham",
       role: "Stage Manager",
       bioText:
@@ -205,6 +251,8 @@ export const data = {
     },
 
     {
+      firstName: "Ray",
+      lastName: "Zaslow",
       name: "Ray Zaslow",
       role: "Sound Engineering Consultant",
       bioText:

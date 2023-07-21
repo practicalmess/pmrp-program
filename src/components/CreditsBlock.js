@@ -33,9 +33,9 @@ const SingleCredit = ({ credit, goToBio }) => {
     <div className="singleCredit">
       <span className={`singleCredit-role ${wrapFixClass}`}>{role}</span>
       <span className="dots"></span>
-      <span onClick={() => goToBio(name)} className={`singleCredit-name ${wrapFixClass}`}>
+      <a onClick={() => goToBio(name)} className={`singleCredit-name ${wrapFixClass}`}>
         {name}
-      </span>
+      </a>
     </div>
   );
 };

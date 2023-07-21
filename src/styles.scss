@@ -38,6 +38,12 @@ body {
     font-family: 'Teko', sans-serif;
     margin: 0;
   }
+  a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: $highlight;
+    cursor: pointer;
+  }
 }
 header {
   text-align: center;
@@ -132,5 +138,16 @@ header {
     &:last-child::after {
       display: none;
     }
+  }
+}
+
+.auditionFooter {
+  background-color: $background-neutral;
+  padding: 16px;
+  text-align: center;
+  font-size: larger;
+  a {
+    margin: 8px;
+    display: block;
   }
 }
