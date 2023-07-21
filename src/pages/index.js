@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import CreditsBlock from "../components/CreditsBlock.js";
 import Bios from "../components/Bios.js";
 import ResponsiveHeroImage from "../components/ResponsiveHeroImage.js";
+import AuditionFooter from "../components/AuditionFooter.js";
 import {
   scroller,
 } from "react-scroll";
