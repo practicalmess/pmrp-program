@@ -3,7 +3,7 @@ export const crew = "CREW";
 
 export const data = {
   scarlet: {
-    showName: "A Study in Scarlet",
+    showName: "The Thin Man",
     writerCredit:
       "Adapted and directed by Jeremy Holstein from the 1887 novel by Sir Arthur Conan Doyle",
     directorCredit: "Directed by Jeremy Holstein",
