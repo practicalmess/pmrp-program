@@ -67,8 +67,15 @@ export const data = {
   crew: {
     showName: "Crew",
     credits: [
-      { role: "Co-Producer", name: "Jeremy Holstein " },
+      { role: "Co-Producer", name: "Jeremy Holstein" },
+      { role: "Co-Producer", name: "Chris DeKalb" },
+      { role: "Sound Designer, Sound Board Op", name: "Kim Dauber" },
+      { role: "Stage Manager, House Manager", name: "Meg Wickham" },
+      { role: "Assistant Stage Manager", name: "Coraline Holstein" },
+      { role: "Sound Engineer", name: "Ray Zaslow" },
+      { role: "Assistant Sound Engineer", name: "Jay Sekora" },
       { role: "Foley Coordinator", name: "Tori Queeno" },
+      { role: "PMRP Managing Director", name: "Mare Freed" },
     ],
   },
   bios: [
