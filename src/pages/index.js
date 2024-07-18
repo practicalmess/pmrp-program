@@ -2,9 +2,7 @@ import React, { useRef, useEffect } from "react";
 import CreditsBlock from "../components/CreditsBlock.js";
 import Bios from "../components/Bios.js";
 import ResponsiveHeroImage from "../components/ResponsiveHeroImage.js";
-import {
-  scroller,
-} from "react-scroll";
+import { scroller } from "react-scroll";
 import { data } from "../data.js";
 import "../styles.scss";
 import AuditionFooter from "../components/AuditionFooter.js";
@@ -21,7 +19,9 @@ const IndexPage = () => {
       <div className="content">
         <div className="credits">
           {/*<ATFProgramInfo />*/}
-          <CreditsBlock show={data.scarlet} goToBio={scrollToBio} />
+          {data.shows.map((show) => (
+            <CreditsBlock show={show} goToBio={scrollToBio} />
+          ))}
           <CreditsBlock show={data.crew} goToBio={scrollToBio} />
           {/*<BTFProgramInfo />*/}
         </div>
@@ -30,7 +30,7 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <footer><AuditionFooter /></footer>
+      <footer>{/* <AuditionFooter /> */}</footer>
     </body>
   );
 };
