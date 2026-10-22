@@ -66,7 +66,7 @@ export const data = {
       { "role": "Costume Designer", "name": "Sophia Palumbo" },
       { "role": "Sound Engineer", "name": "Ray Zaslow" },
       { "role": "Sound Engineer", "name": "Tiffany Liu Veprinski" },
-      { "role": "Assistant Stage Manager Sound Board Operator", "name": "Emanuel \"Nue\" Faltamo" },
+      { "role": "Assistant Stage Manager Sound Board Operator", "name": "Nue" },
       { "role": "Animation, \"The Monkey's Paw\"", "name": "Maeve McCluskey" },
       { "role": "Artwork, \"Phantom Frequency\"", "name": "Dave Ball" }
     ],
