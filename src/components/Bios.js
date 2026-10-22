@@ -41,10 +41,11 @@ const Bios = () => {
   biosArray.sort(compare);
 
   return (
-    <div className="biosBlock">
+    <div className="biosBlock" id="bios">
       <h3 className="biosBlock-title">Cast & Crew Bios</h3>
       <div className="biosBlock-wrapper">
         {biosArray.map((bio) => {
+          {if (!bio.bioText) return null;}
           return <SingleBio name={bio.name} bioText={bio.bioText} />;
         })}
       </div>
@@ -57,7 +58,7 @@ const SingleBio = ({ name, bioText }) => {
     <Element name={name}>
       <div className="biosBlock-singleBio" id={name}>
         <h4 className="biosBlock-singleBio--title">{name}</h4>
-        <div className="biosBlock-singleBio--copyText">{bioText}</div>
+        <div className="biosBlock-singleBio--copyText" dangerouslySetInnerHTML={{ __html: bioText }}/>
       </div>
     </Element>
   );

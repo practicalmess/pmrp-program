@@ -37,7 +37,7 @@ body {
     margin: 0;
   }
   a {
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bolder;
     color: $highlight;
     cursor: pointer;
@@ -61,6 +61,23 @@ header {
     }
   }
 }
+
+.nav {
+  text-align: center;
+  margin: 16px 0;
+  li {
+    display: inline-block;
+    margin: 0 8px;
+    a {
+      color: $text-header;
+      text-decoration: underline;
+      font-weight: bold;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
 .highlightText {
   color: $text-highlight;
 }
@@ -68,14 +85,20 @@ header {
   margin: 2px;
 }
 .programBlock {
+  img {
+    max-width: 90%;
+    margin: 0 5%;
+  }
   background-color: $background-neutral;
   // border: 1px solid black;
   border-radius: 5px;
   padding: 16px 20px;
   margin: 24px 0;
   &-header {
+    text-align: center;
     h3 {
       font-size: 3em;
+      
     }
   }
   .highlightCredit {
@@ -109,6 +132,14 @@ header {
       align-self: flex-end;
     }
   }
+}
+
+#directors-notes {
+  span {
+    display: block;
+    text-align: right;
+  }
+  
 }
 
 .biosBlock {

@@ -4,62 +4,50 @@ export const crew = "CREW";
 export const data = {
   shows: [
     {
-      showName: "The Thin Man",
+      showName: "Beyond the Wall of Sleep",
       writerCredit:
-        "written by George Wells and Sanford Barnett, adapted and directed by Jeremy Holstein",
-      directorCredit: "Jeremy Holstein",
-      description:
-        "A recreation of the Lux Radio Theater’s broadcast from 1936! Nick and Nora Charles are urbane and witty newlyweds who both enjoy a good party, or an even better martini. They find themselves swept up in the mysterious disappearance of scientist Clyde Wynant, whether they like it or not. An adaptation of the famous novel by Dashell Hammett, which introduced the “married couple as sleuths” genre. Guest starring Asta the dog.",
+        "Adapted from the short story by H. P. Lovecraft by Ron N. Butler",
+      directorCredit: "Mrs. Kitty Drexel",
+      
       credits: [
-        { role: "Van Dyke", name: "Andrew Winson" },
-        { role: "Nick Charles", name: "Alex LaFreniere" },
-        { role: "Nora Charles", name: "Naomi Ibasitas" },
-        { role: "Dorothy Wynant", name: "Jenn Benfield" },
-        { role: "Mimi Wynant", name: "Jessica Conger-Henry" },
-        { role: "Macaulay", name: "Jacob Sommer" },
-        { role: "Joe Morelli", name: "Brian Rust" },
-        { role: "Inspector Guild/Julia Wolfe", name: "Maeve McCluskey" },
-        { role: "Gilbert Wynant", name: "Jon Mendoza" },
-        { role: "Nunheim/Doorman Joe", name: "Kevin Kordis" },
-        { role: "Foley Artist", name: "Tori Queeno" },
-        { role: "Foley Artist", name: "Barry Ford" },
+        { "role": "Hartwell", "name": "Cordelia Geoffrion Scannell" },
+        { "role": "Fenton", "name": "Stephen C. Nedell" },
+        { "role": "Joe Slater Higher Self", "name": "Clover Melville" },
+        { "role": "Pacelli", "name": "Nala J. Wu" },
+        { "role": "Nurse Newscaster", "name": "Catherine Bromberg" },
+        { "role": "Police Captain Astronomer", "name": "Sid Hackney" },
+        { "role": "Foley", "name": "Kristina Spinney" },
+        { "role": "Foley", "name": "Sam Tincler" },
       ],
     },
     {
-      showName: "Trifles",
+      showName: "The Monkey's Paw",
       writerCredit:
-        "by Susan Glaspell, adapted by Phoebe Roberts and directed by Hannah Baker",
-      directorCredit: "Hannah Baker",
-      description:
-        "In our adaptation of this 1916 feminist play, loosely based on true events, Minnie Wright has been arrested for strangling her husband while he slept. As the sheriff and county attorney scour Minnie’s house for evidence, Mrs. Peters the sheriff’s wife and her friend Mrs. Hale take care of packing up a few things in the kitchen. They find some pretty interesting items there — but it's probably nothing, just women’s trifles, right?",
+        "Adapted from the short story by W. W. Jacobs by R. A. Pauli",
+      directorCredit: "Alex LaFreniere",
       credits: [
-        { role: "Mrs. Hale", name: "Karen Sarao" },
-        { role: "Mrs. Peters", name: "Mollie Bourne" },
-        { role: "Mr. Hale", name: "Joel Priest" },
-        { role: "Mr. Henderson", name: "Andrew Winson" },
-        { role: "Mr. Peters", name: "Jon Mendoza" },
-        { role: "Mr. Lane", name: "Kevin Kordis" },
-        { role: "Foley Artist", name: "Kaylyn Gillespie" },
-        { role: "Foley Artist", name: "Amelia Smith" },
+        { "role": "John", "name": "David Murgo" },
+        { "role": "Eleanor", "name": "Em Bonnici" },
+        { "role": "Harriet", "name": "Maeve McCluskey" },
+        { "role": "Morris Rep", "name": "Colin Zachariasen" },
+        { "role": "Foley", "name": "Caroline Aronoff" },
+        { "role": "Foley", "name": "Tori Queeno" },
       ],
     },
     {
-      showName: "Arsène Lupin in The Black Pearl",
+      showName: "Phantom Frequency",
       writerCredit:
-        "by Maurice Leblanc, adapted by Michael Lin. Directed by Jamie Lin (with Jeremy Holstein)",
-      directorCredit: "Jamie Lin",
-      description:
-        "Léontine Zalti was once immensely rich, but today nothing is left of her immense fortune save for one black pearl. This is a challenge that gentleman thief Arsène Lupin cannot resist.",
+        "Written by William Cameron",
+      directorCredit: "Kristina Spinney",
       credits: [
-        { role: "Arsène Lupin/Grimaudan", name: "Robert Thorpe II" },
-        { role: "Pauline Savari", name: "Kate Mahoney" },
-        { role: "Folenfant/(Husband)", name: "Michael McAfee" },
-        { role: "Victor Danègre", name: "Jon Mendoza" },
-        { role: "Ganimard/(Defender, Concierge)", name: "Livie Keane" },
-        { role: "Dudouis/(Prosecutor, Vendor)", name: "Stephen C Nedell" },
-        { role: "Ensemble", name: "Amelia Smith" },
-        { role: "Foley Artist", name: "Jaimie Carlson" },
-        { role: "Foley Artist", name: "Émile Lewis" },
+        { "role": "Anna", "name": "Rebecca Hicks" },
+        { "role": "Charlie", "name": "Greg Hovanesian" },
+        { "role": "Radio Voice", "name": "Andrew Croteau" },
+        { "role": "Janie", "name": "Dessa O'Neal" },
+        { "role": "Butch", "name": "Benny Russell" },
+        { "role": "Alice", "name": "Diana Lu" },
+        { "role": "Foley", "name": "Jaimie Carlson" },
+        { "role": "Foley", "name": "Alex Curtin" },
       ],
     },
   ],
@@ -67,281 +55,126 @@ export const data = {
   crew: {
     showName: "Crew",
     credits: [
-      { role: "Co-Producer", name: "Jeremy Holstein" },
-      { role: "Co-Producer", name: "Chris DeKalb" },
-      { role: "Sound Designer, Sound Board Op", name: "Kim Dauber" },
-      { role: "Stage Manager, House Manager", name: "Meg Wickham" },
-      { role: "Assistant Stage Manager", name: "Coraline Holstein" },
-      { role: "Sound Engineer", name: "Ray Zaslow" },
-      { role: "Assistant Sound Engineer", name: "Jay Sekora" },
-      { role: "Foley Coordinator", name: "Tori Queeno" },
-      { role: "PMRP Managing Director", name: "Mare Freed" },
+      { "role": "Producer", "name": "Emma Picht" },
+      { "role": "Producer", "name": "Karen Sarao" },
+      { "role": "Stage Manager", "name": "Jaclyn Wilson" },
+      { "role": "Foley Coordinator", "name": "June Lemr" },
+      { "role": "Publicity Manager", "name": "Kimberly Dauber" },
+      { "role": "Sound Designer Graphic Designer", "name": "Jeremy Holstein" },
+      { "role": "House Manager", "name": "Pieter Wallace" },
+      { "role": "Program Designer", "name": "Simone Agha" },
+      { "role": "Costume Designer", "name": "Sophia Palumbo" },
+      { "role": "Sound Engineer", "name": "Ray Zaslow" },
+      { "role": "Sound Engineer", "name": "Tiffany Liu Veprinski" },
+      { "role": "Assistant Stage Manager Sound Board Operator", "name": "Emanuel \"Nue\" Faltamo" },
+      { "role": "Animation, \"The Monkey's Paw\"", "name": "Maeve McCluskey" },
+      { "role": "Artwork, \"Phantom Frequency\"", "name": "Dave Ball" }
     ],
   },
   bios: [
     {
-      firstName: "Michael",
-      lastName: "Lin",
-      name: "Michael Lin",
-      role: "Writer - The Black Pearl",
-      bioText:
-        "Michael is grateful to the PMRP for enabling his Arsène Lupin obsession yet again. He hopes you enjoy this adaptation, for all the liberties it takes with the source material, and he apologizes for the notable absence of any pirates.",
+      "name": "Alex Curtin",
+      "bioText": "Alex Curtin is thrilled to be making her PRMP debut with Phantom Frequency as a Foley artist. Having previously participated in theater in high school, she’s excited to be back in the theater world and to help bring the show to life!"
     },
     {
-      firstName: "Jessica",
-      lastName: "Conger-Henry",
-      name: "Jessica Conger-Henry",
-      role: "Mimi - The Thin Man",
-      bioText:
-        "Jessica is one of New England's most mysterious cryptids. Some say she lives in the North River in Salem. Others say she haunts the MBTA tunnels. If you listen closely at night and are very unlucky, you can hear her howl \"Well, actually\" into the wind. She's done many shows with PMRP and can be perceived in the feature Most Likely on Amazon Prime. Otherwise do not perceive her, we beg of you. It's for your own good.",
+      "name": "Alex LaFreniere",
+      "bioText": "Alex is excited to return to PMRP as director of The Monkey's Paw. Other recent PMRP credits include Casper Gutman in \"The Maltese Falcon\" and Nick Charles in \"After the Thin Man.\" Alex would like to thank his fiance Jazz, his cats Mylo and Kevin, and his family for all their support."
     },
     {
-      firstName: "Stephen",
-      lastName: "Nedell",
-      name: "Stephen Nedell",
-      role: "Inspector Duduois, Vendor, Prosecutor - The Black Pearl",
-      bioText:
-        "Stephen is a Librarian with the Malden Public Schools but has only recently started to be involved in community performing arts. He appeared on The Dead Files (S3.E14 - Dark Inheritance 2014) as “Local Genealogist” and in Malden Community Theater's Summer 2023 production of 35MM: A Musical Exhibition (The Whore; The Bastard; Sarah's Father). This past Spring, he was in the Theatre Company of Saugus's production of Puffs where he played more than a dozen different roles. This is his first show performing with the PMRP.",
+      "name": "Andrew Croteau",
+      "bioText": "Andrew Croteau has been performing with PMRP for three years, he loves the ability to speak to an audience through their ears rather than their eyes. Andrew has been performing practically his entire life, his first role being part of a mouse trap when he was 7, he's also the bassist and vocalist for local band Good Day for Greg! Check them out here: <a href=\"https://gooddayforgreg.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://gooddayforgreg.com/</a>"
     },
     {
-      firstName: "Kate",
-      lastName: "Mahoney",
-      name: "Kate Mahoney",
-      role: "Pauline Savari - The Black Pearl",
-      bioText:
-        "Kate is thrilled to return to PMRP in another Arsene Lupin mystery, and she thanks Michael and Jamie for the privilege. Kate has performed with PMRP since 2015, after making her voice debut in Jekyll and Hyde. She also enjoyed her PMRP debut at the foley table for a summer mystery, and performs at several local community theaters.",
+      "name": "Clover Melville",
+      "bioText": "Clover Melville has been with PMRP since their first Halloween show in 2023 when they played the Stage Manager in The King in Yellow. Their most recent acting role in PMRP was playing Mr. Vincey in The Stolen Body, but they've been doing sound design for various shows as well. When they aren't on stage, Clover can be found doing a variety of things, but mentoring FIRST Robotics team 2713 takes up most of their time. They also greatly enjoy birding and photography, especially when combined."
     },
     {
-      firstName: "Alex",
-      lastName: "LaFreniere",
-      name: "Alex LaFreniere",
-      role: "Nick Charles - The Thin Man",
-      bioText:
-        "Alex is very excited to be returning to PMRP for his 6th show. Most recently, he appeared as Desmond Cleese in Women Behind the Curtain. Alex is thrilled to be taking on the role of Nick Charles and would like to thank his partner Jazz, his cat Kevin, and his trusty cocktail shaker for their support throughout the rehearsal process.",
+      "name": "Cordelia Geoffrion Scannell",
+      "bioText": "This is Cordelia's third back-to-back show with PMRP; she appeared as Bertie Wooster in Jeeves and Wooster this spring, and with the ensemble in The Maltese Falcon this summer. She also appeared as Frank Churchill in the Arlington Friends of the Drama's production of Emma last year. She's really excited to sink her teeth into some wonderful Lovecraftian prose. She lives in Somerville, works in 3D printing, and spends a lot of time LARPing."
     },
     {
-      firstName: "Andrew",
-      lastName: "Winson",
-      name: "Andrew Winson",
-      role: "Announcer - The Thin Man; Henderson - Trifles",
-      bioText:
-        "Andrew has been acting on the North Shore and Boston and places in between or beyond for the past 20-plus years, a fact he doesn't care to dwell on. He could most recently be seen as Thomas Devereaux in the Quannapowitt Players production of Murder in Green Meadows, and most recently heard as various characters in The Madmen's Guild's I've Got No Spoon, in collaboration with the PMRP podcast. Andrew is 6'8\" and does not play basketball.",
+      "name": "David Murgo",
+      "bioText": "David has been cast as John White in PMRP’s Halloween Production of “The Monkey’s Paw.” He previously assayed the role of Tom Polhaus in PMRP’s Production of “The Maltese Falcon” and also portrayed H.G. Wells - emceeing their 2025 production “War of the Worlds and Other Invasions” He played the roles of Dr. Kemp and Mariner in “Invisible Man” in their Halloween production of “Unseen Worlds of H.G.Wells (2024). He also performed as Mr. Laurence in Colonial Chorus Players (ccp1961.org) production of “A Little Women Christmas” (2025) and as Kris Kringle in CCP's radio/stage production of \"Miracle on 34th Street\" (2024) after their 2023 production of \"It's a Wonderful Life\" playing a variety of roles, including Nick the Bartender, Joseph the Angel, Henry Potter, and others, and played seven+ characters in their earlier seasonal production of “Miracle on 34th Street.” He was an 8+ year member of Voices of Hope (vohboston.org). He looks forward to many future performances with PMRP. As always, he dedicates his performance to his children Em, Rachel, and Christopher…with deepest thanks to Zaven O. for his continuing inspiration!"
     },
     {
-      firstName: "Hannah",
-      lastName: "Baker",
-      name: "Hannah Baker",
-      role: "Director - Trifles",
-      bioText:
-        "Hannah was most recently involved with PMRP as the director and co-playwright of the cursed play The King in Yellow. Watch for her this summer as Ratcliffe in Richard III with Dream Role Players. Hannah is a lawyer for a government agency and lives in Somerville with her dear cat.",
+      "name": "Dessa O'Neal",
+      "bioText": "Dessa has been with PMRP for the past five shows, making outrageous noises with Foley. She takes the stage now, displaying her hard won Southern accent. In her free time, she enjoys crafting of all kinds and reading queer horror!"
     },
     {
-      firstName: "Maeve",
-      lastName: "McCluskey",
-      name: "Maeve McCluskey",
-      role: "Julia Wolfe, Inspector Guild - The Thin Man",
-      bioText:
-        "Maeve is thrilled to be performing in their first ever show with PMRP! Maeve is a passionate actor and vocalist who performs with community theatres throughout the Greater Boston area. Prior to The 13th Mystery, Maeve's most recent role was the Baker in Into the Woods, with the Colonial Chorus Players in Reading. They received a nomination for Best Actor in a Musical (Non-Professional) from BroadwayWorld Boston for their performance.",
+      "name": "Diana Lu",
+      "bioText": "Diana Lu, who is not a bridge troll, is a writer and theatre critic whose work can primarily be found at New England Theatre Geek. Though not a bridge troll, they are a lifelong literature, theatre, and music enthusiast. Diana would like you to know that under no circumstances should anyone think that Diana is, has ever been, or ever will be an actual bridge troll. When not writing or performing, they spend their free time staring at their collection of whispering rocks and shiny shiny coins along the Charles River, on the underside of the Anderson Footbridge. This is her first appearance with PMRP."
     },
     {
-      firstName: "Brian",
-      lastName: "Rust",
-      name: "Brian Rust",
-      role: "Morelli - The Thin Man",
-      bioText:
-        "Brian is an Allston-based writer and actor who politely suggests you continue your streak of seeing superb Somerville shows by checking out Theater@First's 'Festival@First 12: Love is Love.' (The fact that a thing he wrote, 'Love & Deviltry', is one of the plays that'll be performed is purely coincidental.)",
+      "name": "Em Bonnici",
+      "bioText": "Em Bonnici is thrilled to be returning to PMRP after appearing as Florence Craye (a younger, if not equally as frazzled, British lady) in “Jeeves Takes Charge” this past spring. When not onstage for fun, they work mostly backstage as a theatrical freelancer with upcoming projects including A.R.T.’s “1972” and LAM Dancework’s “CONTINUUM”. For any and all inquires please reach out to e.j.bonnici@gmail.com"
     },
     {
-      firstName: "Jamie",
-      lastName: "Lin",
-      name: "Jamie Lin",
-      role: "Director - The Black Pearl",
-      bioText:
-        "Jamie is a Taiwanese-American actor, director & playwright originally from the Bay Area. For PMRP, she previously assistant directed CONFIDENCE CONFIDANT (Spring 2019) with Amanda Balagur, made sound effects for THE PREMATURE BURIAL (Halloween 2017), and voiced a variety of British women over the years. She’s thrilled to bring another brilliant Michael Lin script to the stage with this splendid septet of actors and duo of fantastic foley wizards. Special thanks to Jeremy for all his pinch-hitting!",
+      "name": "Greg Hovanesian",
+      "bioText": "Greg Hovanesian is an actor, playwright, and producer based in Somerville who is thrilled to be performing for Post-Meridian Radio Players for the first time! As an actor, Greg has been seen performing on stages all around Boston. The plays he's written have been performed in New York, Dubai, Houston, and throughout Boston and New England. Greg is active in the Boston improv scene and can often be found performing at improv jams in Roslindale and Somerville. Learn more at <a href=\"http://greghovanesian.com\" target=\"_blank\" rel=\"noopener noreferrer\">greghovanesian.com</a>."
     },
     {
-      firstName: "Michael",
-      lastName: "McAfee",
-      name: "Michael McAfee",
-      role: "Folenfant - The Black Pearl",
-      bioText:
-        'Michael is a long time participant in the PMRP, having served as actor/writer/sound editor/director/producer/managing director at various times over the last couple of decades. Most recently, he co-wrote the PMRP\'s adaptation of "Metropolis" (Spring 2023). His script adapting the HG Wells short story "The Inexperienced Ghost" will be performed this autumn in the PMRP\'s Halloween show. He will gladly talk with you about projects (his, yours, anyone\'s really).',
+      "name": "Jaclyn Wilson",
+      "bioText": "(she/hers) is back yet again to manage some stages and wrangle the cast! She hopes the Frequency at which you get spooked is Beyond your expectations for this Halloween show, and though there's not so much Monkey-ing around, she promises there are still some laughs to be had! You can also find her assistant stage managing this winter with <a href=\"https://theatreatfirst.org\">Theatre@First's</a> production of Enron."
     },
     {
-      firstName: "Chris",
-      lastName: "DeKalb",
-      name: "Chris DeKalb",
-      role: "Co-Producer",
-      bioText:
-        "Chris is happy to be once again working on a summer full of mysteries, murder and mayhem with PMRP. Catch him this fall in scenic Las Vegas!",
+      "name": "Jaimie Carlson",
+      "bioText": "Jaimie is pleased to be in her spooky 13th PMRP show! Her Halloween Foley has ranged from killing zombies to dumping cheating spouses into iron foundries, and she is thrilled to wreak some more ghastly audio revenge tonight! Past PMRP credits include Foley coordinating Maltese Falcon and adapting The Most Dangerous Game and Right Ho, Jeeves! When not making a cacophony for PMRP, Jaimie can be found programming robots, playing quizbowl, or buying too many books."
     },
     {
-      firstName: "Jacob",
-      lastName: "Sommer",
-      name: "Jacob Sommer",
-      role: "Macaulay - The Thin Man",
-      bioText:
-        "Jacob 10 gallon hat\n6 pints blood\n6 pints sweat\n6 pints tears\na splash of cider vinegar\n1 gallon giggle juice\n8 kilos silly\n1/3 library of policy\n2 stone sarcasm\n1 inch irony\n1 field of dreams\n1/4 cup nightmare\n1 large ham\n2 dashes hot sauce\n1 bottle Byfar Coffee Syrup\n1 cup malt\n2 ears corn\n\nSome year he will get the recipe right.  In the meantime, he’s pleased to be back with the Post Meridian Radio Players in his usual mild-mannered way.",
+      "name": "Kristina Spinney",
+      "bioText": "Kristina Spinney is an actor turned accountant in the live music industry who is thrilled to be returning for her sixth PMRP show and first time directing. Some favorite past PMRP credits include Mrs. Bunting in \"The Sea Lady\", Rainsford in a gender-swapped version of “The Most Dangerous Game”, and foley in \"The Maltese Falcon\".  She holds a BFA in acting from Salem State University and formerly served as the production manager of Salem Horror Fest in 2023 & 2024. Kristina enjoys horror, sci-fi, and fantasy of all types. You can typically find Kristina at a book club, cult cinema night, or dancing at a goth club. She would like to thank her fellow directors, Alex & Kitty, for their support, everyone who believed in her, and especially Emma, for encouraging her to direct."
     },
     {
-      firstName: "Jeremy",
-      lastName: "Holstein ",
-      name: "Jeremy Holstein ",
-      role: "Adapter, Director, Sound Designer - The Thin Man; Co-Producer",
-      bioText:
-        "Jeremy has been working with PMRP for over a decade now, mainly as a director and scriptwriter (a dozen Sherlock Holmes adaptations) but also occasionally as an actor (Cask of Amontillado, Metropolis.) He is currently writing/editing the PMRP podcast (podcast.pmrp.org) and will have a short story in this fall's MX Anthology of original Sherlock Holmes stories (https://mxpublishing.com/) entitled the Adventure of the Bishop’s Gambit, his fifth to be published in the series. Jeremy is the current Artistic Director of the PMRP.",
+      "name": "Maeve McCluskey",
+      "bioText": "Maeve McCluskey (she/they) is looking forward to haunting your dreams in her fifth onstage appearance with PMRP. Previous PMRP credits include Betty Wooster in <i>Right Ho, Jeeves</i> (<i>Jeeves & Wooster: Hijinks and Shenanigans</i>, 2026), Captain Bonny Bellamy (<i>Dangerous Adventures!</i>, 2025), Inspector Guild (<i>The 13th Mystery</i>, 2024), and Guild's suspiciously identical-looking \"brother,\" Inspector Malloy (<i>Bullets Over Boston</i>, 2025). Maeve received a Best Actor nomination from BroadwayWorld in 2023 for their role as the Baker in <i>Into the Woods</i> with the Colonial Chorus Players of Reading, and a nomination for Best Specialty Ensemble from EMACT in 2019 for their role as Jetsam in <i>The Little Mermaid</i> with Needham Community Theatre.\n\nWhen Maeve is not terrorizing the community stages of the Greater Boston area, they can usually be found hunched over their drawing tablet, working on homework as they prepare to finish up their certification in animation with MassArt this winter.\n\nYou can catch Maeve onstage again next month in the Ensemble of <i>Seussical!</i> with <a href=\"https://www.needhamtheatre.org/seussical-the-musical\">Needham Community Theatre</a>, opening November 20!"
     },
     {
-      firstName: "Jay",
-      lastName: "Sekora",
-      name: "Jay Sekora",
-      role: "Assistant Sound Engineer",
-      bioText:
-        "Jay is taking a bit of a break after a very busy past twelve months or so with PMRP, and just helping out with equipment this show. Besides acting and sound, he’s directed adaptations of THEM! and Night of the Living Dead. He thanks his beloved partner Mare, with whom every day is a celebration, for introducing him to this wonderful group.",
+      "name": "Mrs. Kitty Drexel",
+      "bioText": "Mrs. Kitty Drexel is a disabled, queer performing artist and theatre critic living with Brachial Plexus Palsy, the sexiest of the palsies. Mrs. Drexel lives in the People’s Republic of Camberville with her brilliant spouse and their two chaos cats. Meow."
     },
     {
-      firstName: "Meg",
-      lastName: "Wickham",
-      name: "Meg Wickham",
-      role: "Stage Manager, House Manager",
-      bioText:
-        "Meg is the official creepy stalker of PMRP as well as the nosiest person in the group. She is also utterly mad with power.",
+      "name": "Nala J. Wu",
+      "bioText": "Nala J. Wu (they/them) aka “Jae” is a proud multiple-marginalized voice actor and award-winning TTRPG actual play performer based in Somerville! This is their second show with PMRP. When they’re not behind a microphone or on stage, Jae does art direction, layout design, and illustration for tabletop RPGs, as well as makeup design, set design, and props construction for theater. In their free time, Jae loves experimenting with fashion, eating ungodly amounts of pasta, and Committing To The Bit (whatever the bit may be). Connect with them online @naladraws!"
     },
     {
-      firstName: "Phoebe",
-      lastName: "Roberts",
-      name: "Phoebe Roberts",
-      role: "Adapter - Trifles",
-      bioText:
-        "Phoebe is a writer and director behind Breaking Light Productions and professor of writing and literature at Lesley University. This is her third mystery script performed by PMRP. She is best known as the creator of the Mrs. Hawking Victorian adventure series; watch the shows in full at youtube.com/@mrshawking.",
+      "name": "Ray Zaslow",
+      "bioText": "Ray is quite pleased to be back behind the board for PMRP's Tomes of Terror! This is his third Halloween show, and one of many that he's provided sound engineering for. He's also acted, most recently appearing as Luke in Maltese Falcon. When he's not working with PMRP, you can find him in a local record store, the closest library, or playing mad scientist in his kitchen."
     },
     {
-      firstName: "Émile",
-      lastName: "Lewis",
-      name: "Émile Lewis",
-      role: "Foley - The Black Pearl",
-      bioText:
-        "Émile has been acting nonstop for thirty-something years in his award-winning role as 'Émile Lewis.' They've also performed at Improv Boston, the Rozzie Square Theatre, with the Post-Meridian Radio Players, and in the shower. Her favourite performance thus far has been Sir Joseph Porter, KCB in the MIT Gilbert & Sullivan Players' 2018 production of HMS Pinafore. As you can guess, Émile is very flexible about pronouns as long as nobody calls them 'Emily.' Émile is currently writing for a long-form podcast drama with Hear Me Out Productions. This is his first foley performance.",
+      "name": "Sam Tincler",
+      "bioText": "This is Sam's third show with PMRP, and he is thrilled to be helping with foley for Beyond The Wall Of Sleep! He has previously made weird noises onstage as Lestrade in A Study In Scarlet, and Joel Cairo in The Maltese Falcon. In Sam's day-to-day life, he is a library associate, loving cat dad, and avid LARPer - all of which, ironically, also involve a good number of sound effects."
     },
     {
-      firstName: "Ray",
-      lastName: "Zaslow",
-      name: "Ray Zaslow",
-      role: "Sound Engineer ",
-      bioText:
-        "Ray is excited to be back behind the board for his third show with PMRP! When not working the soundboard, he can be found working at the Mosesian Center for the Arts, complaining about the summer heat, or at the nearest record store thumbing through the stacks.",
+      "name": "Stephen Nedell",
+      "bioText": "Stephen Nedell is channeling his mid-life crisis into community theatre instead of hair plugs and a gas guzzling convertible. <i>Beyond the Wall of Sleep</i> is his fourth appearance in three PMRP productions. He appeared previously in <i>The Black Pearl</i> a segment of The Thirteenth Mystery (Summer 2024) as well as two segments of Dangerous Adventures (Spring 2024), <i>Townies and Dragons: Barrel Full of Peril</i> and <i>The Bonnie Tales Captain Bellamy: Song of Trickery</i>. Other plays have included <i>Puffs--Seven Increasingly Eventful Years at a Certain School of Magic</i> (Spring 2024) with the Theater Company of Saugus, <i>Worm Food</i> (Summer 2025) with Sereluna Productions, <i>35 MM: A Musical Exhibition</i> (Summer 2023) with Malden Play Production and the world premier of <i>Devil's in the Details</i>(Fall 2025) as Lou, his first featured role. He also made an appearance on the paranormal themed reality show <i>The Dead Files</i> as Local Genealogist (2014). He is a high school librarian by trade and would like to give a shout-out to his soul mate and life partner Karen Newman and their son Zachary Nedell. Last he checked, his cats Xena and Lynx could care less."
     },
     {
-      firstName: "Robert",
-      lastName: "Thorpe II",
-      name: "Robert Thorpe II",
-      role: "Lupin/Grimaudan - The Black Pearl",
-      bioText:
-        "Robert is delighted to be returning to PMRP for his second summer mystery. Recent credits of his include Othello (Ludovico) and Twelfth Night (Sebastian) with Dream Role Players, Book of Will (Boy Hamlet/Marcus) with Hub Theatre Company, and Hamlet (Ensemble) with Apollinaire Theatre. Many thanks to his friends, family, and partner Amelia for their support, as well as his friend Peter who knows Robert knows that Peter reads bios.",
+      "name": "Tori Queeno",
+      "bioText": "Tori is thrilled to be back at the foley table for their 23rd production with PMRP! Most recently, they co-wrote and co-directed this year's Summer Mystery, \"The Maltese Falcon\", with their spouse Jon Mendoza. When not making sound effects, Tori is gaming, LARPing, crafting, reading, writing, editing, and/or sleeping. They can be found all over the internet as ThatNerdTori and frequently seen on Twitch performing in actual play TTRPG streams. Tori would like to thank Jon for keeping them sane and Persephone for being a benevolent feline overlord. Their personal website is <a href=\"https://thatnerdtori.carrd.co\" target=\"_blank\" rel=\"noopener noreferrer\">thatnerdtori.carrd.co</a>"
     },
     {
-      firstName: "Mollie",
-      lastName: "Bourne",
-      name: "Mollie Bourne",
-      role: "Mrs. Peters - Trifles",
-      bioText:
-        "This is Mollie’s 4th show with PMRP and her second show with them in an acting role. Her other involvement has been on the foley team for last year’s A Study in Scarlet and foley coordinator for Women Behind the Curtain. She is so happy to be involved in theatre again thanks to community theatre organizations like PMRP!",
+      "name": "Simone Agha",
+      "bioText": "Simone is a long-time member of PMRP and designed the print program. She hopes you enjoy the show!"
     },
     {
-      firstName: "Karen",
-      lastName: "Sarao",
-      name: "Karen Sarao",
-      role: "Mrs. Hale - Trifles",
-      bioText:
-        "Karen has been a member of the PMRP for an amount of time that would require the use of math to accurately determine. In addition to acting, she has been on the executive board, produced, performed Foley, and one time ran the digital effects board. Prior to Mrs. Hale, her most notable role is that of Jane T. Kirk in the company's annual production of Gender-Swapped Star Trek.",
+      "name": "Colin Zachariasen",
+      "bioText": "Unfortunately, this is Colin Zachariasen’s third show at PMRP. Despite our attempts to get keep him away, he has somehow managed to get in through the vents again. When not acting, Colin can be found taking long walks late at night through the wet and weary streets, as well as engaging in the husbandry of cellar spiders. Come see him in the Concord Players’ Winter production of “Murder On The Orient Express”."
     },
     {
-      firstName: "Jaimie",
-      lastName: "Carlson",
-      name: "Jaimie Carlson",
-      role: "Foley - The Black Pearl",
-      bioText:
-        "Jaimie is delighted to be performing with PMRP for the fourth time! Outside of getting her steps in by hauling around all the Foley equipment, Jaimie can be found wrangling recalcitrant robots, writing quizbowl tournaments, or just sitting by the Esplanade with some coffee and a good book.",
+      "name": "Dave Ball",
+      "bioText": "Dave Ball (Projection Artwork, Phantom Frequency) is on Instagram @abyssengine."
     },
     {
-      firstName: "Kevin",
-      lastName: "Kordis",
-      name: "Kevin Kordis",
-      role: "Mr. Lane - Trifles; Nunheim, Cabbie - The Thin Man",
-      bioText:
-        "Kevin is delighted to be returning for his 8th summer mystery with PMRP. Look out for the premier of his new radio play The Renegotiation coming this Fall.",
+      "name": "Benny Russell",
+      "bioText": "Benny Russell makes his debut with PMRP in this production. He recently performed in Theatre@First's Festival@First 14 as \"Dylan\" in <i>Odysseus's Law of Proportional Misery</i>. Since he was a child, Benny has dreamed of being the big scary guy at the bar, and <i>Phantom Frequency</i> has made that dream a reality."
     },
     {
-      firstName: "Amelia",
-      lastName: "Smith",
-      name: "Amelia Smith",
-      role: "Fence, Judge - The Black Pearl; Foley - Trifles",
-      bioText:
-        "Amelia is delighted to be making her voice acting debut on the PMRP mainstage! You may have seen her previously in PMRP’s Alice in Wonderland at Watch City or on the foley teams for The King in Yellow and Gender-Swapped Star Trek. She also just wrapped up performing in Marian with Theatre@First, and you can catch her next month in Richard III with Dream Role Players. Offstage, Amelia works very hard to spite the too-hot sun as an engineer at a nuclear fusion energy startup. Big thanks to the whole cast and crew, and especially to her partner, Robert!",
+      "name": "June Lemr",
+      "bioText": "is excited to Foley Coordinate for the first time! She has performed with PMRP as a Foley artist four times before following her debut in <a href='https://bullets.pmrp.org/'>last year’s summer mysteries production</a>. Although there are not as many body bags to drop in this production she hopes you enjoy it nevertheless. In her spare time June loves to teach people new board games."
     },
     {
-      firstName: "Naomi",
-      lastName: "Ibasitas",
-      name: "Naomi Ibasitas",
-      role: "Nora Charles - The Thin Man",
-      bioText:
-        "Naomi is an actor, stage manager, and director within the Boston fringe theatre community.  She is very excited to be performing for PMRP again! Other acting credits include Disenchanted! (Mulan/Pocahontas) with the Walpole Footlighters, the 4th Annual Asian American Playwrights Collective Festival 2021 (various roles), and 7 Rooms: The Masque of the Red Death (Misha in Toasting Man, which Hortense also wrote) with Flat Earth Theatre. She is also heavily involved with the Mrs. Hawking series with Breaking Light Productions (which can be found on YouTube for your viewing pleasure at youtube.com/@mrshawking). Off the stage, she is a character performer with Spark a Dream Princess Parties! She graduated from Emerson College with a Bachelor of Arts in Theatre Studies. ",
-    },
-    {
-      firstName: "Kimberly",
-      lastName: "Dauber",
-      name: "Kimberly Dauber",
-      role: "Co-Sound Designer, Sound Board Op",
-      bioText:
-        "Kim is up to her old audio tricks. Lately, she has been experimenting with narrating audiobooks professionally and leaving herself enough free time to play video games. Sound design for this show is dedicated to her cat Goblin, who at time of writing was yelling and biting Kimberly’s leg in a futile effort to get dinner early.",
-    },
-    {
-      firstName: "Livie ",
-      lastName: "Keane ",
-      name: "Livie  Keane ",
-      role: "Ganimard, Prosecutor - The Black Pearl",
-      bioText:
-        "Livie is excited to return to the PMRP Arsene Lupin radiomatic universe! She previously appeared as the Captain of Steamship La Provence in The Arrest of Arsene Lupin. Other PMRP appearances include (but are not limited to) Aleksandra Mikhailovna Kuznetsova in Women Behind the Curtain, Col. Edwards in Plan 9 from Outer Space, and Maria in Metropolis. When she is not talking in funny voices, she is frantically trying to keep the rabbits away from her tomatoes so she can eat the tomatoes instead.",
-    },
-    {
-      firstName: "Barry",
-      lastName: "Ford",
-      name: "Barry Ford",
-      role: "Foley - The Thin Man",
-      bioText:
-        "Barry (they/them) is a former theater kid and radio show lover who’s been coming to PMRC shows since 2016. This is their first ever performance with PMRC, and they're thrilled to take part as a foley artist for The Thin Man! Their favorite fictional detective is Hercule Poirot and their favorite classic radio show is The Whistler.",
-    },
-    {
-      firstName: "Joel",
-      lastName: "Priest",
-      name: "Joel Priest",
-      role: "Lewis Hale - Trifles",
-      bioText:
-        "is making his second appearance in a PMRP show. He was last seen playing the part of Kelton in Plan 9 from Outer Space. You can frequently find Joel singing along to Hadestown, Hamilton, or any number of other musicals that start with the letter H, while driving a minivan full of teenagers across the sweeping plains of eastern Massachusetts.",
-    },
-    {
-      firstName: "Tori",
-      lastName: "Queeno",
-      name: "Tori Queeno",
-      role: "Foley - The Thin Man; Foley Coordinator",
-      bioText:
-        'Tori is thrilled to be participating in their 16th production with PMRP as a member of the foley team for The Thin Man and as foley coordinator for the entire Thirteenth Mystery show! Outside of PMRP, you can find Tori frequently performing in TTRPG actual play productions online and making "content" in the tabletop community overall. Follow them at ThatNerdTori on all platforms to keep up to keep up with their shenanigans! They would like to thank their partner (and fellow Thirteenth Mystery performer!), Jon, for loving and supporting them in their creative endeavors, as well as their cat, Persephone, for being a benevolent furry overlord. ',
-    },
-    {
-      firstName: "Jenn",
-      lastName: "Benfield",
-      name: "Jenn Benfield",
-      role: "Dorothy Wynant - The Thin Man",
-      bioText:
-        "Jenn  is thrilled to perform with PMRP for the first time. Previous roles with T@F include Proof (Catherine) and Love, Loss, and What I Wore. Jenn costume designs for the stage series Mrs. Hawking (Breaking Light Productions), and has been most recently seen as the Distinguished Matron in Mrs. Hawking: Fallen Women. Special thanks to her biggest supporters: John, Mom, Shaughn, Nu, and Phoebe. Jenn appears courtesy of Merlin and Mona, the furry gremlins who have resentfully tolerated her leaving the house.",
-    },
-    {
-      firstName: "Jonathan ",
-      lastName: "Mendoza",
-      name: "Jonathan  Mendoza",
-      role: "Victor Danegre - The Black Pearl; Sheriff Peters - Trifles; Gilbert, Tony - The Thin Man",
-      bioText:
-        "Jon is happy to be back on their third outing with PMRP! When not performing with PMRP, Jonathan is a Tabletop Roleplaying Game designer/writer, and performer/producer in the world of TTRPG Actual Plays; they most recently appeared on the Roads Uncharted Genesys Actual Play Podcast as a guest player. When not doing that, Jonathan is a drama therapy clinician specializing in therapeutic applications of roleplaying games; when not doing that, they are likely sleeping. Special thanks to Tori Queeno for dragging them into PMRP; they love it here.",
-    },
-  ],
+      "name": "Caroline Aronoff",
+      "bioText": "This is Caroline Aronoff's second show with PMRP and first time performing with the group! She performed with Theater@First over the summer as Moureau and Lady in their production of The Aria of Julie d'Aubigny, and was the sounds board operator in PMRP's production of the Maltese Falcon."
+    }
+  ]
 };
