@@ -1,5 +1,3 @@
-export const scarlet = "scarlet";
-export const crew = "CREW";
 
 export const data = {
   shows: [
@@ -175,6 +173,10 @@ export const data = {
     {
       "name": "Caroline Aronoff",
       "bioText": "This is Caroline Aronoff's second show with PMRP and first time performing with the group! She performed with Theater@First over the summer as Moureau and Lady in their production of The Aria of Julie d'Aubigny, and was the sounds board operator in PMRP's production of the Maltese Falcon."
+    },
+    {
+      "name": "Rebecca Hicks",
+      "bioText": "Rebecca Hicks is a BFA graduate of UMass Amherst and first-time performer at PMRP. Her favorite roles before now have been Ophelia in “Hamlet”, Antigone in “Antigone”, and Titania in “A Midsummer Night’s Dream” (though Anna will likely be at the the top of this list going forward). She’s beyond grateful for the incredible cast and crew of Phantom Frequency for welcoming her and providing her first stage role since coming to Boston. Special thanks to her Mom, her Dad, and her (very handsome) cat Kuroko!"
     }
   ]
 };
